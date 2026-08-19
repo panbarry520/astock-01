@@ -1,20 +1,12 @@
 {
-  "generatedAt": "2026/8/19 16:04:55",
-  "signalTime": "2026-08-19T08:04:55.886Z",
+  "generatedAt": "2026/8/19 08:31:39",
+  "signalTime": "2026-08-19T08:31:39.312Z",
   "lateSnapshot": true,
   "dataValid": false,
   "date": "2026-08-19",
-  "snapshotTime": "14:45",
-  "marketScore": 42,
+  "marketScore": 36,
   "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 42/100：情绪冰点，停止隔夜策略",
-  "tempDetail": {
-    "idx": "三大指数均值 -4.56%",
-    "breadth": "上涨 421 / 下跌 4760（广度 8%）",
-    "emo": "涨停 39 / 跌停 164",
-    "rate": "炸板率 59%（高开 56 / 炸板 33）",
-    "m15": "15分钟趋势 0.23%"
-  },
+  "marketLabel": "🔴 短线市场温度 36/100",
   "gate": {
     "tier": "no",
     "allow": false,
@@ -25,8 +17,8 @@
   "weekendHold": false,
   "funnel": {
     "total": 5551,
-    "rejectST": 474,
-    "rejectLimit": 39,
+    "rejectST": 473,
+    "rejectLimit": 40,
     "rejectPct": 4861,
     "rejectVolRatio": 5,
     "rejectTurnover": 131,
@@ -116,7 +108,77 @@
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "603556",
+      "name": "海兴电力",
+      "price": 27.9,
+      "pct": 4.89,
+      "industry": "电网设备",
+      "volMulti": 211.9,
+      "turnover": 5.89,
+      "delta": -0.11,
+      "dayHighTime": "10:26",
+      "tailNewHigh": false,
+      "closePos": 60,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 63,
+      "overnightScore": 60,
+      "marketScore": 36,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "禁止",
+      "shadow": false
+    },
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "price": 15.69,
+      "pct": 4.05,
+      "industry": "综合Ⅱ",
+      "volMulti": 326.44,
+      "turnover": 6.56,
+      "delta": 0.6,
+      "dayHighTime": "09:58",
+      "tailNewHigh": false,
+      "closePos": 45,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 50,
+      "marketScore": 36,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "禁止",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "603556",
+      "name": "海兴电力",
+      "industry": "电网设备",
+      "quality": 63,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "industry": "综合Ⅱ",
+      "quality": 61,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
