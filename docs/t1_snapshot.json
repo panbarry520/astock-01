@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026/8/19 16:04:55",
+  "signalTime": "2026-08-19T08:04:55.886Z",
+  "lateSnapshot": true,
+  "dataValid": false,
+  "date": "2026-08-19",
+  "snapshotTime": "14:45",
+  "marketScore": 42,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 42/100：情绪冰点，停止隔夜策略",
+  "tempDetail": {
+    "idx": "三大指数均值 -4.56%",
+    "breadth": "上涨 421 / 下跌 4760（广度 8%）",
+    "emo": "涨停 39 / 跌停 164",
+    "rate": "炸板率 59%（高开 56 / 炸板 33）",
+    "m15": "15分钟趋势 0.23%"
+  },
+  "gate": {
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
+  },
+  "weekendHold": false,
+  "funnel": {
+    "total": 5551,
+    "rejectST": 474,
+    "rejectLimit": 39,
+    "rejectPct": 4861,
+    "rejectVolRatio": 5,
+    "rejectTurnover": 131,
+    "rejectMktcap": 31,
+    "passed": 10
+  },
+  "benchmark": [
+    {
+      "code": "300035",
+      "name": "中科电气",
+      "pct": 8.41,
+      "volRatio": 6.44,
+      "turnover": 11.95,
+      "industry": "电池"
+    },
+    {
+      "code": "000525",
+      "name": "红太阳",
+      "pct": 5.77,
+      "volRatio": 3.82,
+      "turnover": 8.74,
+      "industry": "农化制品"
+    },
+    {
+      "code": "603556",
+      "name": "海兴电力",
+      "pct": 4.89,
+      "volRatio": 2.14,
+      "turnover": 5.89,
+      "industry": "电网设备"
+    },
+    {
+      "code": "002043",
+      "name": "兔 宝 宝",
+      "pct": 4.68,
+      "volRatio": 2.48,
+      "turnover": 3.63,
+      "industry": "装修建材"
+    },
+    {
+      "code": "600740",
+      "name": "山西焦化",
+      "pct": 4.18,
+      "volRatio": 3.87,
+      "turnover": 4.38,
+      "industry": "焦炭Ⅱ"
+    },
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "pct": 4.05,
+      "volRatio": 5.02,
+      "turnover": 6.56,
+      "industry": "综合Ⅱ"
+    },
+    {
+      "code": "601008",
+      "name": "连云港",
+      "pct": 3.86,
+      "volRatio": 6.08,
+      "turnover": 3.75,
+      "industry": "航运港口"
+    },
+    {
+      "code": "300343",
+      "name": "联创股份",
+      "pct": 3.25,
+      "volRatio": 2.53,
+      "turnover": 5.67,
+      "industry": "化学制品"
+    },
+    {
+      "code": "300046",
+      "name": "台基股份",
+      "pct": 3.24,
+      "volRatio": 3.35,
+      "turnover": 7.53,
+      "industry": "半导体"
+    },
+    {
+      "code": "688488",
+      "name": "艾迪药业",
+      "pct": 3.18,
+      "volRatio": 1.44,
+      "turnover": 3.58,
+      "industry": "生物制品"
+    }
+  ],
+  "formal": [],
+  "candidates": [],
+  "shadow": [],
+  "all": []
+}
