@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T+1 正式策略 · 云端快照</title>
+<style>
+  :root { --up:#e03131; --down:#0ca678; --bg:#f5f6fa; --card:#fff; --text:#1a1d24; --text2:#6b7280; --border:#e5e7eb; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; padding: 16px; max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 18px; margin-bottom: 4px; }
+  .sub { color: var(--text2); font-size: 12px; margin-bottom: 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin-bottom: 12px; }
+  .temp { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .temp-badge { font-size: 13px; font-weight: 700; padding: 6px 12px; border-radius: 8px; color: #fff; }
+  .temp-detail { font-size: 12px; color: var(--text2); }
+  .gate { font-size: 13px; margin-top: 8px; font-weight: 600; }
+  .sec { font-size: 14px; font-weight: 700; margin: 12px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--text2); font-weight: 600; font-size: 12px; }
+  .up { color: var(--up); } .down { color: var(--down); }
+  .empty { color: var(--text2); font-size: 13px; padding: 8px 0; }
+  .funnel { font-size: 12.5px; color: var(--text2); line-height: 1.7; }
+  .shadow { font-size: 12.5px; color: #a47100; }
+  details { margin-top: 6px; } summary { cursor: pointer; font-size: 13px; color: #a47100; }
+  .tag { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: 5px; margin-left: 4px; background: #eef0f5; color: #495057; }
+  .tag-blue { background: #e7f5ff; color: #1971c2; }
+  .badge { display:inline-block; padding:2px 8px; border-radius:6px; font-size:12px; font-weight:700; }
+  .b-buy { background:#ffe3e3; color:#c92a2a; } .b-wait { background:#f1f3f5; color:#868e96; } .b-no { background:#e9ecef; color:#adb5bd; }
+</style>
+</head>
+<body>
+  <h1>📌 T+1 正式策略（14:45 云端快照）</h1>
+  <div class="sub" id="sub">加载中…</div>
+  <div class="card" id="temp"></div>
+  <div class="sec">✅ 正式交易信号</div>
+  <div class="card" id="formal"></div>
+  <div class="sec">👀 观望候选</div>
+  <div class="card" id="candidates"></div>
+  <div class="sec">📊 Benchmark（网页Top500对照）</div>
+  <div class="card" id="benchmark"></div>
+  <details class="card" style="padding:10px 14px">
+    <summary>🟡 影子候选池 <span id="shadowCount"></span></summary>
+    <div id="shadow" class="shadow" style="margin-top:6px"></div>
+  </details>
+  <div class="card" style="padding:10px 14px">
+    <div class="funnel" id="funnel"></div>
+  </div>
+  <script>
+    fetch('./t1_snapshot.json?t=' + Date.now()).then(r => r.json()).then(d => {
+      const pct = v => v === null || v === undefined ? '--' : (v > 0 ? '+' + v + '%' : v + '%');
+      const envColor = d.marketState === 'ok' ? '#0ca678' : d.marketState === 'no' ? '#e03131' : '#f59f00';
+      document.getElementById('sub').textContent = (d.date || '') + ' · 14:45 快照 · 信息截面 ' + (d.signalTime ? d.signalTime.slice(11, 19) : '') + (d.weekendHold ? ' · 周五(WeekendHold)' : '') + (d.lateSnapshot ? ' · ⚠️晚快照(仅展示)' : '');
+      document.getElementById('temp').innerHTML =
+        '<div class="temp"><span class="temp-badge" style="background:' + envColor + '">' + (d.marketLabel || '') + '</span></div>' +
+        '<div class="gate">⛳ ' + (d.gate ? d.gate.label : '') + '</div>';
+      const card = (s) => '<tr><td><b>' + s.name + '</b><span class="tag">' + (s.industry || '') + '</span></td>' +
+        '<td>Q <b>' + s.qualityScore + '</b></td><td>O <b>' + s.overnightScore + '</b></td><td>M <b>' + s.marketScore + '</b></td>' +
+        '<td>' + (s.fundTypes || []).map(t => '<span class="tag tag-blue">' + t + '</span>').join('') + '</td>' +
+        '<td>' + (s.recommendation === '可买' ? '<span class="badge b-buy">可买</span>' : '<span class="badge b-wait">观望</span>') + '</td></tr>';
+      const list = (arr) => arr && arr.length ? '<table><thead><tr><th>股票</th><th>Q</th><th>O</th><th>M</th><th>资金类型</th><th>裁决</th></tr></thead><tbody>' + arr.map(card).join('') + '</tbody></table>' : '<div class="empty">无</div>';
+      document.getElementById('formal').innerHTML = list(d.formal);
+      document.getElementById('candidates').innerHTML = list((d.candidates || []).slice(0, 6));
+      document.getElementById('benchmark').innerHTML = (d.benchmark || []).length ? '<table><thead><tr><th>股票</th><th>涨幅</th><th>量比</th><th>换手</th></tr></thead><tbody>' + d.benchmark.map(s => '<tr><td><b>' + s.name + '</b></td><td class="' + (s.pct > 0 ? 'up' : 'down') + '">' + pct(s.pct) + '</td><td>' + s.volRatio + '</td><td>' + s.turnover + '%</td></tr>').join('') + '</tbody></table>' : '<div class="empty">无</div>';
+      document.getElementById('shadowCount').textContent = '（' + (d.shadow || []).length + ' 只）';
+      document.getElementById('shadow').innerHTML = (d.shadow || []).map(s => '🟡 ' + s.name + ' Q' + s.quality + '/O' + s.overnight).join('　') || '无';
+      const f = d.funnel || {};
+      document.getElementById('funnel').innerHTML = '🔍 漏斗：全市场 ' + (f.total || 0) + ' → ST/新股 ' + (f.rejectST || 0) + ' → 涨停 ' + (f.rejectLimit || 0) + ' → 涨幅不符 ' + (f.rejectPct || 0) + ' → 量比 ' + (f.rejectVolRatio || 0) + ' → 换手 ' + (f.rejectTurnover || 0) + ' → 市值 ' + (f.rejectMktcap || 0) + ' → <b>候选 ' + (f.passed || 0) + '</b>';
+    }).catch(e => {
+      document.getElementById('sub').textContent = '快照加载失败：' + e.message;
+    });
+  </script>
+</body>
+</html>
