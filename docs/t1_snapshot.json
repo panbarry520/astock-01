@@ -1,184 +1,33 @@
 {
-  "generatedAt": "2026/8/19 08:31:39",
-  "signalTime": "2026-08-19T08:31:39.312Z",
+  "generatedAt": "2026/8/20 07:28:55",
+  "signalTime": "2026-08-20T07:28:55.895Z",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-08-19",
-  "marketScore": 36,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 36/100",
+  "date": "2026-08-20",
+  "marketScore": 92,
+  "marketState": "ok",
+  "marketLabel": "🟢 短线市场温度 92/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "ok",
+    "allow": true,
+    "requireQ": 75,
+    "requireO": 75,
+    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5551,
+    "total": 5552,
     "rejectST": 473,
-    "rejectLimit": 40,
-    "rejectPct": 4861,
-    "rejectVolRatio": 5,
-    "rejectTurnover": 131,
-    "rejectMktcap": 31,
-    "passed": 10
+    "rejectLimit": 128,
+    "rejectPct": 3366,
+    "rejectVolRatio": 959,
+    "rejectTurnover": 381,
+    "rejectMktcap": 158,
+    "passed": 87
   },
-  "benchmark": [
-    {
-      "code": "300035",
-      "name": "中科电气",
-      "pct": 8.41,
-      "volRatio": 6.44,
-      "turnover": 11.95,
-      "industry": "电池"
-    },
-    {
-      "code": "000525",
-      "name": "红太阳",
-      "pct": 5.77,
-      "volRatio": 3.82,
-      "turnover": 8.74,
-      "industry": "农化制品"
-    },
-    {
-      "code": "603556",
-      "name": "海兴电力",
-      "pct": 4.89,
-      "volRatio": 2.14,
-      "turnover": 5.89,
-      "industry": "电网设备"
-    },
-    {
-      "code": "002043",
-      "name": "兔 宝 宝",
-      "pct": 4.68,
-      "volRatio": 2.48,
-      "turnover": 3.63,
-      "industry": "装修建材"
-    },
-    {
-      "code": "600740",
-      "name": "山西焦化",
-      "pct": 4.18,
-      "volRatio": 3.87,
-      "turnover": 4.38,
-      "industry": "焦炭Ⅱ"
-    },
-    {
-      "code": "000025",
-      "name": "特  力Ａ",
-      "pct": 4.05,
-      "volRatio": 5.02,
-      "turnover": 6.56,
-      "industry": "综合Ⅱ"
-    },
-    {
-      "code": "601008",
-      "name": "连云港",
-      "pct": 3.86,
-      "volRatio": 6.08,
-      "turnover": 3.75,
-      "industry": "航运港口"
-    },
-    {
-      "code": "300343",
-      "name": "联创股份",
-      "pct": 3.25,
-      "volRatio": 2.53,
-      "turnover": 5.67,
-      "industry": "化学制品"
-    },
-    {
-      "code": "300046",
-      "name": "台基股份",
-      "pct": 3.24,
-      "volRatio": 3.35,
-      "turnover": 7.53,
-      "industry": "半导体"
-    },
-    {
-      "code": "688488",
-      "name": "艾迪药业",
-      "pct": 3.18,
-      "volRatio": 1.44,
-      "turnover": 3.58,
-      "industry": "生物制品"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
-  "candidates": [
-    {
-      "code": "603556",
-      "name": "海兴电力",
-      "price": 27.9,
-      "pct": 4.89,
-      "industry": "电网设备",
-      "volMulti": 211.9,
-      "turnover": 5.89,
-      "delta": -0.11,
-      "dayHighTime": "10:26",
-      "tailNewHigh": false,
-      "closePos": 60,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 63,
-      "overnightScore": 60,
-      "marketScore": 36,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "000025",
-      "name": "特  力Ａ",
-      "price": 15.69,
-      "pct": 4.05,
-      "industry": "综合Ⅱ",
-      "volMulti": 326.44,
-      "turnover": 6.56,
-      "delta": 0.6,
-      "dayHighTime": "09:58",
-      "tailNewHigh": false,
-      "closePos": 45,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 61,
-      "overnightScore": 50,
-      "marketScore": 36,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "603556",
-      "name": "海兴电力",
-      "industry": "电网设备",
-      "quality": 63,
-      "overnight": 60,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "000025",
-      "name": "特  力Ａ",
-      "industry": "综合Ⅱ",
-      "quality": 61,
-      "overnight": 50,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
