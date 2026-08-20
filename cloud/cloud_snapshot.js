@@ -333,7 +333,9 @@ async function main() {
   const isFriday = new Date().getDay() === 5;
   const now = new Date();
   const hm = now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
-  const late = hm < 14 * 60 + 44.5 || hm > 14 * 60 + 46.5;
+  // 档位：strict(14:44:30-14:46:30) / near(14:29:30-15:00) / late(15:00后)
+  const tier = (hm >= 14 * 60 + 44.5 && hm <= 14 * 60 + 46.5) ? 'strict' : (hm >= 14 * 60 + 29.5 && hm <= 15 * 60) ? 'near' : 'late';
+  const late = tier === 'late';
   const stocks = refined.map((s) => {
     const q = s.totalScore || 0, o = s.overnightFit || 0;
     const dataOk = s.dataStatus === 'ok' || !s.dataStatus;
@@ -343,6 +345,7 @@ async function main() {
   const snap = {
     generatedAt: now.toLocaleString('zh-CN', { hour12: false }),
     signalTime: now.toISOString(),
+    sampleTier: tier,
     lateSnapshot: late,
     dataValid: !late,
     date: now.toISOString().slice(0, 10),
