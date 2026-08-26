@@ -1,32 +1,113 @@
 {
-  "generatedAt": "2026/8/25 07:31:58",
-  "signalTime": "2026-08-25T07:31:58.696Z",
+  "generatedAt": "2026/8/26 07:32:38",
+  "signalTime": "2026-08-26T07:32:38.939Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-08-25",
-  "marketScore": 78,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 78/100",
+  "date": "2026-08-26",
+  "marketScore": 34,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 34/100",
   "gate": {
-    "tier": "ok",
-    "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5553,
-    "rejectST": 474,
-    "rejectLimit": 92,
-    "rejectPct": 2980,
-    "rejectVolRatio": 1302,
-    "rejectTurnover": 472,
-    "rejectMktcap": 161,
-    "passed": 72
+    "total": 5554,
+    "rejectST": 472,
+    "rejectLimit": 62,
+    "rejectPct": 4352,
+    "rejectVolRatio": 226,
+    "rejectTurnover": 273,
+    "rejectMktcap": 101,
+    "passed": 68
   },
-  "benchmark": [],
+  "benchmark": [
+    {
+      "code": "002026",
+      "name": "山东威达",
+      "pct": 8.18,
+      "volRatio": 5.44,
+      "turnover": 9.01,
+      "industry": "通用设备"
+    },
+    {
+      "code": "300910",
+      "name": "瑞丰新材",
+      "pct": 7.44,
+      "volRatio": 4.19,
+      "turnover": 7.63,
+      "industry": "化学制品"
+    },
+    {
+      "code": "002880",
+      "name": "卫光生物",
+      "pct": 7.41,
+      "volRatio": 4.45,
+      "turnover": 6.67,
+      "industry": "生物制品"
+    },
+    {
+      "code": "301031",
+      "name": "中熔电气",
+      "pct": 6.98,
+      "volRatio": 2.97,
+      "turnover": 5.44,
+      "industry": "其他电子Ⅱ"
+    },
+    {
+      "code": "688772",
+      "name": "珠海冠宇",
+      "pct": 6.9,
+      "volRatio": 2.34,
+      "turnover": 4.88,
+      "industry": "电池"
+    },
+    {
+      "code": "601388",
+      "name": "怡球资源",
+      "pct": 6.73,
+      "volRatio": 4.02,
+      "turnover": 7.01,
+      "industry": "工业金属"
+    },
+    {
+      "code": "300674",
+      "name": "宇信科技",
+      "pct": 6.68,
+      "volRatio": 2.88,
+      "turnover": 6.17,
+      "industry": "IT服务Ⅱ"
+    },
+    {
+      "code": "300697",
+      "name": "电工合金",
+      "pct": 6.51,
+      "volRatio": 1.84,
+      "turnover": 10.79,
+      "industry": "工业金属"
+    },
+    {
+      "code": "002947",
+      "name": "恒铭达",
+      "pct": 6.51,
+      "volRatio": 2.44,
+      "turnover": 10.09,
+      "industry": "消费电子"
+    },
+    {
+      "code": "300082",
+      "name": "奥克股份",
+      "pct": 6.47,
+      "volRatio": 2.85,
+      "turnover": 5.93,
+      "industry": "化学原料"
+    }
+  ],
   "formal": [],
   "candidates": [],
   "shadow": [],
