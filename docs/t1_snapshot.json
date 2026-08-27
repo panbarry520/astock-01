@@ -1,115 +1,185 @@
 {
-  "generatedAt": "2026/8/26 07:32:38",
-  "signalTime": "2026-08-26T07:32:38.939Z",
-  "sampleTier": "late",
-  "lateSnapshot": true,
-  "dataValid": false,
-  "date": "2026-08-26",
-  "marketScore": 34,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 34/100",
+  "generatedAt": "2026/8/27 14:45:00",
+  "signalTime": "2026-08-27T06:45:00.057Z",
+  "sampleTier": "strict",
+  "lateSnapshot": false,
+  "dataValid": true,
+  "date": "2026-08-27",
+  "marketScore": 76,
+  "marketState": "ok",
+  "marketLabel": "🟢 短线市场温度 76/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "ok",
+    "allow": true,
+    "requireQ": 75,
+    "requireO": 75,
+    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5554,
-    "rejectST": 472,
-    "rejectLimit": 62,
-    "rejectPct": 4352,
-    "rejectVolRatio": 226,
-    "rejectTurnover": 273,
-    "rejectMktcap": 101,
-    "passed": 68
+    "total": 5354,
+    "rejectST": 479,
+    "rejectLimit": 99,
+    "rejectPct": 3646,
+    "rejectVolRatio": 648,
+    "rejectTurnover": 248,
+    "rejectMktcap": 123,
+    "passed": 111
   },
   "benchmark": [
     {
-      "code": "002026",
-      "name": "山东威达",
-      "pct": 8.18,
-      "volRatio": 5.44,
-      "turnover": 9.01,
+      "code": "300842",
+      "name": "帝科股份",
+      "pct": 7.4,
+      "volRatio": 2.17,
+      "turnover": 5.59,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "600114",
+      "name": "东睦股份",
+      "pct": 7.34,
+      "volRatio": 2.24,
+      "turnover": 5.36,
       "industry": "通用设备"
     },
     {
-      "code": "300910",
-      "name": "瑞丰新材",
-      "pct": 7.44,
-      "volRatio": 4.19,
-      "turnover": 7.63,
-      "industry": "化学制品"
+      "code": "688135",
+      "name": "利扬芯片",
+      "pct": 7.24,
+      "volRatio": 1.48,
+      "turnover": 5.27,
+      "industry": "半导体"
     },
     {
-      "code": "002880",
-      "name": "卫光生物",
-      "pct": 7.41,
-      "volRatio": 4.45,
-      "turnover": 6.67,
-      "industry": "生物制品"
+      "code": "688535",
+      "name": "华海诚科",
+      "pct": 7.24,
+      "volRatio": 1.48,
+      "turnover": 4.76,
+      "industry": "半导体"
     },
     {
-      "code": "301031",
-      "name": "中熔电气",
-      "pct": 6.98,
-      "volRatio": 2.97,
-      "turnover": 5.44,
-      "industry": "其他电子Ⅱ"
-    },
-    {
-      "code": "688772",
-      "name": "珠海冠宇",
-      "pct": 6.9,
-      "volRatio": 2.34,
-      "turnover": 4.88,
-      "industry": "电池"
-    },
-    {
-      "code": "601388",
-      "name": "怡球资源",
-      "pct": 6.73,
-      "volRatio": 4.02,
-      "turnover": 7.01,
-      "industry": "工业金属"
-    },
-    {
-      "code": "300674",
-      "name": "宇信科技",
-      "pct": 6.68,
-      "volRatio": 2.88,
-      "turnover": 6.17,
-      "industry": "IT服务Ⅱ"
-    },
-    {
-      "code": "300697",
-      "name": "电工合金",
-      "pct": 6.51,
-      "volRatio": 1.84,
-      "turnover": 10.79,
-      "industry": "工业金属"
-    },
-    {
-      "code": "002947",
-      "name": "恒铭达",
-      "pct": 6.51,
-      "volRatio": 2.44,
-      "turnover": 10.09,
+      "code": "301086",
+      "name": "鸿富瀚",
+      "pct": 7.2,
+      "volRatio": 1.42,
+      "turnover": 8.77,
       "industry": "消费电子"
     },
     {
-      "code": "300082",
-      "name": "奥克股份",
-      "pct": 6.47,
-      "volRatio": 2.85,
-      "turnover": 5.93,
-      "industry": "化学原料"
+      "code": "601137",
+      "name": "博威合金",
+      "pct": 7.1,
+      "volRatio": 1.65,
+      "turnover": 3.2,
+      "industry": "金属新材料"
+    },
+    {
+      "code": "300835",
+      "name": "龙磁科技",
+      "pct": 7.04,
+      "volRatio": 1.57,
+      "turnover": 4.54,
+      "industry": "金属新材料"
+    },
+    {
+      "code": "002708",
+      "name": "光洋股份",
+      "pct": 7.03,
+      "volRatio": 1.54,
+      "turnover": 4.65,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "002745",
+      "name": "木林森",
+      "pct": 7.03,
+      "volRatio": 1.6,
+      "turnover": 5.78,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "002003",
+      "name": "伟星股份",
+      "pct": 7.02,
+      "volRatio": 2.79,
+      "turnover": 3.42,
+      "industry": "纺织制造"
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "price": 16.58,
+      "pct": 3.88,
+      "industry": "综合Ⅱ",
+      "volMulti": 199.48,
+      "turnover": 5.81,
+      "delta": null,
+      "dayHighTime": "10:09",
+      "tailNewHigh": false,
+      "closePos": 64,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 62,
+      "overnightScore": 45,
+      "marketScore": 76,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "300184",
+      "name": "力源信息",
+      "price": 12.31,
+      "pct": 4.41,
+      "industry": "其他电子Ⅱ",
+      "volMulti": 90.2,
+      "turnover": 5.16,
+      "delta": null,
+      "dayHighTime": "13:03",
+      "tailNewHigh": false,
+      "closePos": 89,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 60,
+      "overnightScore": 50,
+      "marketScore": 76,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "000025",
+      "name": "特  力Ａ",
+      "industry": "综合Ⅱ",
+      "quality": 62,
+      "overnight": 45,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "300184",
+      "name": "力源信息",
+      "industry": "其他电子Ⅱ",
+      "quality": 60,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
