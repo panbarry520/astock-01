@@ -331,8 +331,19 @@ async function main() {
   const marketScore = env.temp.total;
   const gate = overnightGate(marketScore);
   const isFriday = new Date().getDay() === 5;
+  // GitHub Actions 运行于 UTC：先等到「北京时间 14:45」截面再抓取，确保是严格/近似样本
+  const sleepUntil = (ms) => new Promise((r) => setTimeout(r, Math.max(0, ms - Date.now())));
+  const bjTarget = new Date();
+  bjTarget.setUTCHours(6, 45, 0, 0); // 北京时间 14:45 = UTC 06:45
+  if (bjTarget.getTime() > Date.now()) {
+    await sleepUntil(bjTarget.getTime());
+  }
   const now = new Date();
-  const hm = now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
+  // 档位判定改用「北京时间」（避免 UTC 误判为早间导致永远 late）
+  const bjH = (now.getUTCHours() + 8) % 24;
+  const bjM = now.getUTCMinutes();
+  const bjS = now.getUTCSeconds();
+  const hm = bjH * 60 + bjM + bjS / 60;
   // 档位：strict(14:44:30-14:46:30) / near(14:29:30-15:00) / late(15:00后)
   const tier = (hm >= 14 * 60 + 44.5 && hm <= 14 * 60 + 46.5) ? 'strict' : (hm >= 14 * 60 + 29.5 && hm <= 15 * 60) ? 'near' : 'late';
   const late = tier === 'late';
@@ -343,7 +354,7 @@ async function main() {
     return { code: s.code, name: s.name, price: round(s.price), pct: round(s.pct), industry: s.industry || '--', volMulti: s.volMulti, turnover: round(s.turnover), delta: s.delta, dayHighTime: s.dayHighTime, tailNewHigh: s.tailNewHigh, closePos: s.closePos, crowding: s.crowding, fundTypes: s.fundTypes, qualityScore: q, overnightScore: o, marketScore, dataStatus: s.dataStatus, passed, recommendation: passed ? '可买' : (gate.allow ? '观望' : '禁止'), shadow: dataOk && !passed && (((q >= 70 && q <= 84) || (o >= 65 && o <= 79))) };
   });
   const snap = {
-    generatedAt: now.toLocaleString('zh-CN', { hour12: false }),
+    generatedAt: now.toLocaleString('zh-CN', { hour12: false, timeZone: 'Asia/Shanghai' }),
     signalTime: now.toISOString(),
     sampleTier: tier,
     lateSnapshot: late,
