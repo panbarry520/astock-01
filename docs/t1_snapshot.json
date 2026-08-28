@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/8/27 14:53:36",
-  "signalTime": "2026-08-27T06:53:36.175Z",
-  "sampleTier": "near",
-  "lateSnapshot": false,
-  "dataValid": true,
-  "date": "2026-08-27",
-  "marketScore": 68,
+  "generatedAt": "2026/8/29 01:51:12",
+  "signalTime": "2026-08-28T17:51:12.881Z",
+  "sampleTier": "late",
+  "lateSnapshot": true,
+  "dataValid": false,
+  "date": "2026-08-28",
+  "marketScore": 54,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 68/100",
+  "marketLabel": "🟡 短线市场温度 54/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -15,137 +15,101 @@
     "requireO": 80,
     "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
-    "total": 4954,
-    "rejectST": 456,
-    "rejectLimit": 128,
-    "rejectPct": 3483,
-    "rejectVolRatio": 484,
-    "rejectTurnover": 196,
-    "rejectMktcap": 102,
-    "passed": 105
+    "total": 5554,
+    "rejectST": 472,
+    "rejectLimit": 87,
+    "rejectPct": 4228,
+    "rejectVolRatio": 203,
+    "rejectTurnover": 325,
+    "rejectMktcap": 151,
+    "passed": 88
   },
   "benchmark": [
     {
-      "code": "300756",
-      "name": "金马游乐",
-      "pct": 9.36,
-      "volRatio": 1.9,
-      "turnover": 3.53,
+      "code": "603012",
+      "name": "创力集团",
+      "pct": 7.82,
+      "volRatio": 2.65,
+      "turnover": 9.01,
       "industry": "专用设备"
     },
     {
-      "code": "688327",
-      "name": "云从科技-UW",
-      "pct": 9.32,
-      "volRatio": 3.22,
-      "turnover": 5.78,
-      "industry": "IT服务Ⅱ"
+      "code": "002860",
+      "name": "星帅尔",
+      "pct": 7.57,
+      "volRatio": 1.2,
+      "turnover": 4.89,
+      "industry": "家电零部件Ⅱ"
     },
     {
-      "code": "688416",
-      "name": "恒烁股份",
-      "pct": 9.26,
-      "volRatio": 1.43,
-      "turnover": 6.72,
-      "industry": "半导体"
+      "code": "300492",
+      "name": "华图山鼎",
+      "pct": 7.44,
+      "volRatio": 2.44,
+      "turnover": 3.34,
+      "industry": "教育"
     },
     {
-      "code": "301510",
-      "name": "固高科技",
-      "pct": 9.19,
-      "volRatio": 2.99,
-      "turnover": 3.99,
-      "industry": "自动化设备"
+      "code": "002161",
+      "name": "远 望 谷",
+      "pct": 7.37,
+      "volRatio": 2.3,
+      "turnover": 5.91,
+      "industry": "其他电子Ⅱ"
     },
     {
-      "code": "301128",
-      "name": "强瑞技术",
-      "pct": 9.18,
-      "volRatio": 1.82,
-      "turnover": 7.55,
-      "industry": "专用设备"
+      "code": "688561",
+      "name": "奇安信-U",
+      "pct": 7.32,
+      "volRatio": 6.61,
+      "turnover": 3.37,
+      "industry": "软件开发"
     },
     {
-      "code": "688603",
-      "name": "天承科技",
-      "pct": 9.11,
-      "volRatio": 1.54,
-      "turnover": 4.61,
-      "industry": "电子化学品Ⅱ"
+      "code": "688095",
+      "name": "福昕软件",
+      "pct": 7.06,
+      "volRatio": 3.84,
+      "turnover": 8.6,
+      "industry": "软件开发"
     },
     {
-      "code": "688352",
-      "name": "颀中科技",
-      "pct": 8.91,
-      "volRatio": 1.35,
-      "turnover": 7.45,
-      "industry": "半导体"
+      "code": "300005",
+      "name": "探路者",
+      "pct": 7.04,
+      "volRatio": 2.17,
+      "turnover": 9.76,
+      "industry": "服装家纺"
     },
     {
-      "code": "002937",
-      "name": "兴瑞科技",
-      "pct": 8.71,
-      "volRatio": 1.37,
-      "turnover": 3.53,
-      "industry": "汽车零部件"
+      "code": "603100",
+      "name": "川仪股份",
+      "pct": 6.96,
+      "volRatio": 5.8,
+      "turnover": 3.25,
+      "industry": "通用设备"
     },
     {
-      "code": "688262",
-      "name": "国芯科技",
-      "pct": 8.58,
-      "volRatio": 1.77,
-      "turnover": 3.51,
-      "industry": "半导体"
+      "code": "688408",
+      "name": "中信博",
+      "pct": 6.94,
+      "volRatio": 3.09,
+      "turnover": 3.55,
+      "industry": "光伏设备"
     },
     {
-      "code": "688559",
-      "name": "海目星",
-      "pct": 8.31,
-      "volRatio": 1.61,
-      "turnover": 7.98,
-      "industry": "自动化设备"
+      "code": "301216",
+      "name": "万凯新材",
+      "pct": 6.8,
+      "volRatio": 1.5,
+      "turnover": 9.16,
+      "industry": "塑料"
     }
   ],
   "formal": [],
-  "candidates": [
-    {
-      "code": "002745",
-      "name": "木林森",
-      "price": 11.97,
-      "pct": 7.84,
-      "industry": "光学光电子",
-      "volMulti": 119.36,
-      "turnover": 6.36,
-      "delta": null,
-      "dayHighTime": "14:52",
-      "tailNewHigh": true,
-      "closePos": 100,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 65,
-      "overnightScore": 7,
-      "marketScore": 68,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "002745",
-      "name": "木林森",
-      "industry": "光学光电子",
-      "quality": 65,
-      "overnight": 7,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
