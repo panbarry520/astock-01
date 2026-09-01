@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026/8/31 20:04:16",
-  "signalTime": "2026-08-31T12:04:16.969Z",
+  "generatedAt": "2026/9/1 18:42:44",
+  "signalTime": "2026-09-01T10:42:44.574Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "marketScore": 54,
   "marketState": "warn",
   "marketLabel": "🟡 短线市场温度 54/100",
@@ -17,143 +17,119 @@
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5554,
+    "total": 5555,
     "rejectST": 470,
-    "rejectLimit": 122,
-    "rejectPct": 3723,
-    "rejectVolRatio": 495,
-    "rejectTurnover": 385,
-    "rejectMktcap": 230,
-    "passed": 129
+    "rejectLimit": 91,
+    "rejectPct": 4056,
+    "rejectVolRatio": 264,
+    "rejectTurnover": 380,
+    "rejectMktcap": 192,
+    "passed": 102
   },
   "benchmark": [
     {
-      "code": "300491",
-      "name": "通合科技",
-      "pct": 9.15,
-      "volRatio": 1.37,
-      "turnover": 11.44,
-      "industry": "其他电源设备Ⅱ"
+      "code": "300158",
+      "name": "振东制药",
+      "pct": 8.05,
+      "volRatio": 3.22,
+      "turnover": 6.4,
+      "industry": "中药Ⅱ"
     },
     {
-      "code": "688621",
-      "name": "阳光诺和",
-      "pct": 9.14,
-      "volRatio": 1.83,
-      "turnover": 5.9,
-      "industry": "医疗服务"
-    },
-    {
-      "code": "688798",
-      "name": "艾为电子",
-      "pct": 8.94,
+      "code": "002385",
+      "name": "大北农",
+      "pct": 7.62,
       "volRatio": 2.06,
-      "turnover": 7.81,
-      "industry": "半导体"
+      "turnover": 9.02,
+      "industry": "饲料"
     },
     {
-      "code": "301232",
-      "name": "飞沃科技",
-      "pct": 8.9,
-      "volRatio": 1.21,
-      "turnover": 10.51,
-      "industry": "风电设备"
+      "code": "601952",
+      "name": "苏垦农发",
+      "pct": 7.39,
+      "volRatio": 1.7,
+      "turnover": 4.51,
+      "industry": "种植业"
     },
     {
-      "code": "300592",
-      "name": "华凯易佰",
-      "pct": 8.9,
-      "volRatio": 1.69,
-      "turnover": 5.3,
-      "industry": "互联网电商"
+      "code": "300997",
+      "name": "欢乐家",
+      "pct": 6.93,
+      "volRatio": 2.18,
+      "turnover": 4.82,
+      "industry": "饮料乳品"
     },
     {
-      "code": "301128",
-      "name": "强瑞技术",
-      "pct": 8.87,
+      "code": "000061",
+      "name": "农 产 品",
+      "pct": 6.9,
+      "volRatio": 1.57,
+      "turnover": 3.67,
+      "industry": "一般零售"
+    },
+    {
+      "code": "300468",
+      "name": "四方精创",
+      "pct": 6.79,
+      "volRatio": 1.23,
+      "turnover": 11.91,
+      "industry": "软件开发"
+    },
+    {
+      "code": "002785",
+      "name": "万里石",
+      "pct": 6.72,
+      "volRatio": 2.13,
+      "turnover": 8.13,
+      "industry": "装修建材"
+    },
+    {
+      "code": "601900",
+      "name": "南方传媒",
+      "pct": 6.35,
+      "volRatio": 6.12,
+      "turnover": 4.18,
+      "industry": "出版"
+    },
+    {
+      "code": "002827",
+      "name": "高争民爆",
+      "pct": 6.32,
       "volRatio": 1.32,
-      "turnover": 7.82,
-      "industry": "专用设备"
+      "turnover": 5.63,
+      "industry": "化学制品"
     },
     {
-      "code": "300909",
-      "name": "汇创达",
-      "pct": 8.68,
-      "volRatio": 1.51,
-      "turnover": 4.49,
-      "industry": "光学光电子"
-    },
-    {
-      "code": "300613",
-      "name": "富瀚微",
-      "pct": 8.17,
-      "volRatio": 1.72,
-      "turnover": 9.94,
-      "industry": "半导体"
-    },
-    {
-      "code": "002290",
-      "name": "禾盛新材",
-      "pct": 8.11,
-      "volRatio": 1.69,
-      "turnover": 3.69,
-      "industry": "家电零部件Ⅱ"
-    },
-    {
-      "code": "002681",
-      "name": "奋达科技",
-      "pct": 7.91,
-      "volRatio": 3.85,
-      "turnover": 7.5,
-      "industry": "消费电子"
+      "code": "601311",
+      "name": "骆驼股份",
+      "pct": 6.29,
+      "volRatio": 6.22,
+      "turnover": 4.22,
+      "industry": "电池"
     }
   ],
   "formal": [],
   "candidates": [
     {
-      "code": "002860",
-      "name": "星帅尔",
-      "price": 17.3,
-      "pct": 7.79,
-      "industry": "家电零部件Ⅱ",
-      "volMulti": null,
-      "turnover": 7.7,
-      "delta": 0.44,
-      "dayHighTime": "10:18",
+      "code": "002385",
+      "name": "大北农",
+      "price": 3.53,
+      "pct": 7.62,
+      "industry": "饲料",
+      "volMulti": 239.99,
+      "turnover": 9.02,
+      "delta": 0,
+      "dayHighTime": "11:25",
       "tailNewHigh": false,
-      "closePos": 87,
-      "crowding": "低拥挤",
+      "closePos": 81,
+      "crowding": "中拥挤",
       "fundTypes": [
         "中性"
       ],
-      "qualityScore": 60,
-      "overnightScore": 85,
+      "qualityScore": 62,
+      "overnightScore": 55,
       "marketScore": 54,
-      "dataStatus": "ok",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    },
-    {
-      "code": "688210",
-      "name": "统联精密",
-      "price": 33.43,
-      "pct": 7.15,
-      "industry": "消费电子",
-      "volMulti": null,
-      "turnover": 5.49,
-      "delta": -0.16,
-      "dayHighTime": "09:45",
-      "tailNewHigh": false,
-      "closePos": 92,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 60,
-      "overnightScore": 85,
-      "marketScore": 54,
-      "dataStatus": "ok",
+      "dataStatus": "invalid",
       "passed": false,
       "recommendation": "观望",
       "shadow": false
@@ -162,24 +138,14 @@
   "shadow": [],
   "all": [
     {
-      "code": "002860",
-      "name": "星帅尔",
-      "industry": "家电零部件Ⅱ",
-      "quality": 60,
-      "overnight": 85,
+      "code": "002385",
+      "name": "大北农",
+      "industry": "饲料",
+      "quality": 62,
+      "overnight": 55,
       "passed": false,
       "shadow": false,
-      "dataStatus": "ok"
-    },
-    {
-      "code": "688210",
-      "name": "统联精密",
-      "industry": "消费电子",
-      "quality": 60,
-      "overnight": 85,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "ok"
+      "dataStatus": "invalid"
     }
   ]
 }
