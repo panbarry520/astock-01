@@ -1,148 +1,67 @@
 {
-  "generatedAt": "2026/9/1 18:42:44",
-  "signalTime": "2026-09-01T10:42:44.574Z",
+  "generatedAt": "2026/9/2 18:08:09",
+  "signalTime": "2026-09-02T10:08:09.736Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-01",
-  "marketScore": 54,
-  "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 54/100",
+  "date": "2026-09-02",
+  "marketScore": 26,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 26/100",
   "gate": {
-    "tier": "warn",
-    "allow": true,
-    "requireQ": 80,
-    "requireO": 80,
-    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5555,
+    "total": 5556,
     "rejectST": 470,
-    "rejectLimit": 91,
-    "rejectPct": 4056,
-    "rejectVolRatio": 264,
-    "rejectTurnover": 380,
-    "rejectMktcap": 192,
-    "passed": 102
+    "rejectLimit": 56,
+    "rejectPct": 4658,
+    "rejectVolRatio": 79,
+    "rejectTurnover": 152,
+    "rejectMktcap": 96,
+    "passed": 45
   },
-  "benchmark": [
-    {
-      "code": "300158",
-      "name": "振东制药",
-      "pct": 8.05,
-      "volRatio": 3.22,
-      "turnover": 6.4,
-      "industry": "中药Ⅱ"
-    },
-    {
-      "code": "002385",
-      "name": "大北农",
-      "pct": 7.62,
-      "volRatio": 2.06,
-      "turnover": 9.02,
-      "industry": "饲料"
-    },
-    {
-      "code": "601952",
-      "name": "苏垦农发",
-      "pct": 7.39,
-      "volRatio": 1.7,
-      "turnover": 4.51,
-      "industry": "种植业"
-    },
-    {
-      "code": "300997",
-      "name": "欢乐家",
-      "pct": 6.93,
-      "volRatio": 2.18,
-      "turnover": 4.82,
-      "industry": "饮料乳品"
-    },
-    {
-      "code": "000061",
-      "name": "农 产 品",
-      "pct": 6.9,
-      "volRatio": 1.57,
-      "turnover": 3.67,
-      "industry": "一般零售"
-    },
-    {
-      "code": "300468",
-      "name": "四方精创",
-      "pct": 6.79,
-      "volRatio": 1.23,
-      "turnover": 11.91,
-      "industry": "软件开发"
-    },
-    {
-      "code": "002785",
-      "name": "万里石",
-      "pct": 6.72,
-      "volRatio": 2.13,
-      "turnover": 8.13,
-      "industry": "装修建材"
-    },
-    {
-      "code": "601900",
-      "name": "南方传媒",
-      "pct": 6.35,
-      "volRatio": 6.12,
-      "turnover": 4.18,
-      "industry": "出版"
-    },
-    {
-      "code": "002827",
-      "name": "高争民爆",
-      "pct": 6.32,
-      "volRatio": 1.32,
-      "turnover": 5.63,
-      "industry": "化学制品"
-    },
-    {
-      "code": "601311",
-      "name": "骆驼股份",
-      "pct": 6.29,
-      "volRatio": 6.22,
-      "turnover": 4.22,
-      "industry": "电池"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
   "candidates": [
     {
-      "code": "002385",
-      "name": "大北农",
-      "price": 3.53,
-      "pct": 7.62,
-      "industry": "饲料",
-      "volMulti": 239.99,
-      "turnover": 9.02,
+      "code": "600435",
+      "name": "北方导航",
+      "price": 11.62,
+      "pct": 4.59,
+      "industry": "地面兵装Ⅱ",
+      "volMulti": 301.44,
+      "turnover": 4.66,
       "delta": 0,
-      "dayHighTime": "11:25",
+      "dayHighTime": "13:21",
       "tailNewHigh": false,
-      "closePos": 81,
-      "crowding": "中拥挤",
+      "closePos": 85,
+      "crowding": "低拥挤",
       "fundTypes": [
         "中性"
       ],
-      "qualityScore": 62,
-      "overnightScore": 55,
-      "marketScore": 54,
+      "qualityScore": 63,
+      "overnightScore": 65,
+      "marketScore": 26,
       "dataStatus": "invalid",
       "passed": false,
-      "recommendation": "观望",
+      "recommendation": "禁止",
       "shadow": false
     }
   ],
   "shadow": [],
   "all": [
     {
-      "code": "002385",
-      "name": "大北农",
-      "industry": "饲料",
-      "quality": 62,
-      "overnight": 55,
+      "code": "600435",
+      "name": "北方导航",
+      "industry": "地面兵装Ⅱ",
+      "quality": 63,
+      "overnight": 65,
       "passed": false,
       "shadow": false,
       "dataStatus": "invalid"
