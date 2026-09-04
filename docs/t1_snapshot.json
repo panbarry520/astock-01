@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/9/3 18:19:46",
-  "signalTime": "2026-09-03T10:19:46.723Z",
+  "generatedAt": "2026/9/4 18:07:19",
+  "signalTime": "2026-09-04T10:07:19.412Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-03",
-  "marketScore": 54,
+  "date": "2026-09-04",
+  "marketScore": 60,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 54/100",
+  "marketLabel": "🟡 短线市场温度 60/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -15,16 +15,16 @@
     "requireO": 80,
     "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
     "total": 5456,
-    "rejectST": 401,
-    "rejectLimit": 58,
-    "rejectPct": 4473,
-    "rejectVolRatio": 207,
-    "rejectTurnover": 165,
-    "rejectMktcap": 74,
-    "passed": 78
+    "rejectST": 415,
+    "rejectLimit": 48,
+    "rejectPct": 4387,
+    "rejectVolRatio": 171,
+    "rejectTurnover": 228,
+    "rejectMktcap": 121,
+    "passed": 86
   },
   "benchmark": [],
   "formal": [],
