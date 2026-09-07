@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/9/4 18:07:19",
-  "signalTime": "2026-09-04T10:07:19.412Z",
+  "generatedAt": "2026/9/7 18:58:00",
+  "signalTime": "2026-09-07T10:58:00.329Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-04",
-  "marketScore": 60,
+  "date": "2026-09-07",
+  "marketScore": 50,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 60/100",
+  "marketLabel": "🟡 短线市场温度 50/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -15,18 +15,99 @@
     "requireO": 80,
     "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
-    "total": 5456,
-    "rejectST": 415,
-    "rejectLimit": 48,
-    "rejectPct": 4387,
-    "rejectVolRatio": 171,
-    "rejectTurnover": 228,
-    "rejectMktcap": 121,
-    "passed": 86
+    "total": 5556,
+    "rejectST": 470,
+    "rejectLimit": 148,
+    "rejectPct": 3858,
+    "rejectVolRatio": 601,
+    "rejectTurnover": 239,
+    "rejectMktcap": 149,
+    "passed": 91
   },
-  "benchmark": [],
+  "benchmark": [
+    {
+      "code": "000813",
+      "name": "德展健康",
+      "pct": 9.33,
+      "volRatio": 3.09,
+      "turnover": 10.61,
+      "industry": "化学制药"
+    },
+    {
+      "code": "688800",
+      "name": "瑞可达",
+      "pct": 9.05,
+      "volRatio": 1.68,
+      "turnover": 5.49,
+      "industry": "其他电子Ⅱ"
+    },
+    {
+      "code": "688628",
+      "name": "优利德",
+      "pct": 8.96,
+      "volRatio": 2.01,
+      "turnover": 5.91,
+      "industry": "通用设备"
+    },
+    {
+      "code": "301261",
+      "name": "恒工精密",
+      "pct": 8.94,
+      "volRatio": 3.2,
+      "turnover": 5.75,
+      "industry": "通用设备"
+    },
+    {
+      "code": "300802",
+      "name": "矩子科技",
+      "pct": 8.74,
+      "volRatio": 1.67,
+      "turnover": 8.24,
+      "industry": "自动化设备"
+    },
+    {
+      "code": "002516",
+      "name": "旷达科技",
+      "pct": 8.69,
+      "volRatio": 6.65,
+      "turnover": 5.35,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "688809",
+      "name": "强一股份",
+      "pct": 8.64,
+      "volRatio": 1.42,
+      "turnover": 9.25,
+      "industry": "半导体"
+    },
+    {
+      "code": "688531",
+      "name": "日联科技",
+      "pct": 8.63,
+      "volRatio": 1.44,
+      "turnover": 4.25,
+      "industry": "专用设备"
+    },
+    {
+      "code": "688698",
+      "name": "伟创电气",
+      "pct": 8.48,
+      "volRatio": 2.72,
+      "turnover": 3.71,
+      "industry": "自动化设备"
+    },
+    {
+      "code": "688035",
+      "name": "德邦科技",
+      "pct": 8.47,
+      "volRatio": 1.25,
+      "turnover": 5.43,
+      "industry": "电子化学品Ⅱ"
+    }
+  ],
   "formal": [],
   "candidates": [],
   "shadow": [],
