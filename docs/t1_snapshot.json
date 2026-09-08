@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/9/7 18:58:00",
-  "signalTime": "2026-09-07T10:58:00.329Z",
+  "generatedAt": "2026/9/8 18:14:59",
+  "signalTime": "2026-09-08T10:14:59.346Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-07",
-  "marketScore": 50,
+  "date": "2026-09-08",
+  "marketScore": 56,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 50/100",
+  "marketLabel": "🟡 短线市场温度 56/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -17,99 +17,271 @@
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5556,
-    "rejectST": 470,
-    "rejectLimit": 148,
-    "rejectPct": 3858,
-    "rejectVolRatio": 601,
-    "rejectTurnover": 239,
-    "rejectMktcap": 149,
-    "passed": 91
+    "total": 5557,
+    "rejectST": 471,
+    "rejectLimit": 85,
+    "rejectPct": 3955,
+    "rejectVolRatio": 402,
+    "rejectTurnover": 386,
+    "rejectMktcap": 153,
+    "passed": 105
   },
   "benchmark": [
     {
-      "code": "000813",
-      "name": "德展健康",
-      "pct": 9.33,
-      "volRatio": 3.09,
-      "turnover": 10.61,
-      "industry": "化学制药"
+      "code": "300261",
+      "name": "雅本化学",
+      "pct": 9.13,
+      "volRatio": 6.56,
+      "turnover": 6.9,
+      "industry": "农化制品"
     },
     {
-      "code": "688800",
-      "name": "瑞可达",
-      "pct": 9.05,
-      "volRatio": 1.68,
-      "turnover": 5.49,
-      "industry": "其他电子Ⅱ"
-    },
-    {
-      "code": "688628",
-      "name": "优利德",
-      "pct": 8.96,
-      "volRatio": 2.01,
-      "turnover": 5.91,
-      "industry": "通用设备"
-    },
-    {
-      "code": "301261",
-      "name": "恒工精密",
-      "pct": 8.94,
-      "volRatio": 3.2,
-      "turnover": 5.75,
-      "industry": "通用设备"
-    },
-    {
-      "code": "300802",
-      "name": "矩子科技",
-      "pct": 8.74,
-      "volRatio": 1.67,
-      "turnover": 8.24,
-      "industry": "自动化设备"
-    },
-    {
-      "code": "002516",
-      "name": "旷达科技",
-      "pct": 8.69,
-      "volRatio": 6.65,
-      "turnover": 5.35,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "688809",
-      "name": "强一股份",
-      "pct": 8.64,
-      "volRatio": 1.42,
-      "turnover": 9.25,
+      "code": "688135",
+      "name": "利扬芯片",
+      "pct": 9.02,
+      "volRatio": 1.98,
+      "turnover": 8.85,
       "industry": "半导体"
     },
     {
-      "code": "688531",
-      "name": "日联科技",
-      "pct": 8.63,
-      "volRatio": 1.44,
-      "turnover": 4.25,
+      "code": "300049",
+      "name": "福瑞医科",
+      "pct": 8.34,
+      "volRatio": 3.1,
+      "turnover": 7.61,
+      "industry": "医疗器械"
+    },
+    {
+      "code": "300939",
+      "name": "秋田微",
+      "pct": 8.19,
+      "volRatio": 2.34,
+      "turnover": 5.6,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "688758",
+      "name": "赛分科技",
+      "pct": 8.17,
+      "volRatio": 1.5,
+      "turnover": 4.22,
+      "industry": "化学制药"
+    },
+    {
+      "code": "688073",
+      "name": "毕得医药",
+      "pct": 8.01,
+      "volRatio": 2.67,
+      "turnover": 8.57,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "pct": 7.73,
+      "volRatio": 1.21,
+      "turnover": 5.96,
+      "industry": "焦炭Ⅱ"
+    },
+    {
+      "code": "301333",
+      "name": "诺思格",
+      "pct": 7.54,
+      "volRatio": 2.02,
+      "turnover": 6.51,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "605300",
+      "name": "佳禾食品",
+      "pct": 7.53,
+      "volRatio": 2.02,
+      "turnover": 6.2,
+      "industry": "饮料乳品"
+    },
+    {
+      "code": "000852",
+      "name": "石化机械",
+      "pct": 6.91,
+      "volRatio": 1.51,
+      "turnover": 6.7,
       "industry": "专用设备"
-    },
-    {
-      "code": "688698",
-      "name": "伟创电气",
-      "pct": 8.48,
-      "volRatio": 2.72,
-      "turnover": 3.71,
-      "industry": "自动化设备"
-    },
-    {
-      "code": "688035",
-      "name": "德邦科技",
-      "pct": 8.47,
-      "volRatio": 1.25,
-      "turnover": 5.43,
-      "industry": "电子化学品Ⅱ"
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "605300",
+      "name": "佳禾食品",
+      "price": 11.28,
+      "pct": 7.53,
+      "industry": "饮料乳品",
+      "volMulti": 494.98,
+      "turnover": 6.2,
+      "delta": 0.76,
+      "dayHighTime": "10:00",
+      "tailNewHigh": false,
+      "closePos": 75,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 78,
+      "overnightScore": 60,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "603599",
+      "name": "广信股份",
+      "price": 11.43,
+      "pct": 6.13,
+      "industry": "农化制品",
+      "volMulti": 306.35,
+      "turnover": 5.08,
+      "delta": 0,
+      "dayHighTime": "11:19",
+      "tailNewHigh": false,
+      "closePos": 77,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 74,
+      "overnightScore": 50,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "price": 3.9,
+      "pct": 7.73,
+      "industry": "焦炭Ⅱ",
+      "volMulti": 136.43,
+      "turnover": 5.96,
+      "delta": 0,
+      "dayHighTime": "13:42",
+      "tailNewHigh": false,
+      "closePos": 100,
+      "crowding": "中拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 70,
+      "overnightScore": 48,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "301333",
+      "name": "诺思格",
+      "price": 60.2,
+      "pct": 7.54,
+      "industry": "医疗服务",
+      "volMulti": 161,
+      "turnover": 6.51,
+      "delta": -0.77,
+      "dayHighTime": "14:30",
+      "tailNewHigh": true,
+      "closePos": 95,
+      "crowding": "中拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 66,
+      "overnightScore": 18,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "300997",
+      "name": "欢乐家",
+      "price": 18.75,
+      "pct": 5.81,
+      "industry": "饮料乳品",
+      "volMulti": 182.64,
+      "turnover": 6.6,
+      "delta": 0.11,
+      "dayHighTime": "10:00",
+      "tailNewHigh": false,
+      "closePos": 48,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 50,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "605300",
+      "name": "佳禾食品",
+      "industry": "饮料乳品",
+      "quality": 78,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "603599",
+      "name": "广信股份",
+      "industry": "农化制品",
+      "quality": 74,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "601015",
+      "name": "陕西黑猫",
+      "industry": "焦炭Ⅱ",
+      "quality": 70,
+      "overnight": 48,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "301333",
+      "name": "诺思格",
+      "industry": "医疗服务",
+      "quality": 66,
+      "overnight": 18,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "300997",
+      "name": "欢乐家",
+      "industry": "饮料乳品",
+      "quality": 61,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
