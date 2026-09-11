@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/9/10 18:12:05",
-  "signalTime": "2026-09-10T10:12:05.657Z",
+  "generatedAt": "2026/9/11 18:09:18",
+  "signalTime": "2026-09-11T10:09:18.364Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-10",
-  "marketScore": 36,
+  "date": "2026-09-11",
+  "marketScore": 30,
   "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 36/100",
+  "marketLabel": "🔴 短线市场温度 30/100",
   "gate": {
     "tier": "no",
     "allow": false,
@@ -15,97 +15,97 @@
     "requireO": null,
     "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
     "total": 5558,
     "rejectST": 471,
-    "rejectLimit": 37,
-    "rejectPct": 4756,
-    "rejectVolRatio": 64,
-    "rejectTurnover": 139,
-    "rejectMktcap": 54,
-    "passed": 37
+    "rejectLimit": 45,
+    "rejectPct": 4775,
+    "rejectVolRatio": 39,
+    "rejectTurnover": 135,
+    "rejectMktcap": 52,
+    "passed": 41
   },
   "benchmark": [
     {
-      "code": "300739",
-      "name": "明阳电路",
-      "pct": 8.68,
-      "volRatio": 2.28,
-      "turnover": 11.41,
-      "industry": "元件"
+      "code": "688151",
+      "name": "华强科技",
+      "pct": 7.61,
+      "volRatio": 3.21,
+      "turnover": 3.43,
+      "industry": "医疗器械"
     },
     {
-      "code": "600812",
-      "name": "华北制药",
-      "pct": 7.92,
-      "volRatio": 8.5,
-      "turnover": 6.57,
-      "industry": "化学制药"
-    },
-    {
-      "code": "688662",
-      "name": "富信科技",
-      "pct": 6.56,
-      "volRatio": 1.63,
-      "turnover": 10.11,
-      "industry": "其他电子Ⅱ"
-    },
-    {
-      "code": "300850",
-      "name": "新强联",
-      "pct": 6.42,
-      "volRatio": 2.35,
-      "turnover": 7.61,
-      "industry": "风电设备"
-    },
-    {
-      "code": "001896",
-      "name": "豫能控股",
-      "pct": 5.7,
-      "volRatio": 4.24,
-      "turnover": 9.74,
-      "industry": "电力"
-    },
-    {
-      "code": "603216",
-      "name": "梦天家居",
-      "pct": 5.66,
-      "volRatio": 1.52,
-      "turnover": 8.7,
+      "code": "603226",
+      "name": "菲林格尔",
+      "pct": 7.41,
+      "volRatio": 3.59,
+      "turnover": 4.08,
       "industry": "家居用品"
     },
     {
-      "code": "688135",
-      "name": "利扬芯片",
-      "pct": 5.64,
-      "volRatio": 1.75,
-      "turnover": 11.62,
-      "industry": "半导体"
+      "code": "603533",
+      "name": "掌阅科技",
+      "pct": 6.64,
+      "volRatio": 1.35,
+      "turnover": 11.72,
+      "industry": "数字媒体"
     },
     {
-      "code": "600113",
-      "name": "浙江东日",
-      "pct": 5.63,
-      "volRatio": 1.88,
-      "turnover": 3.43,
-      "industry": "一般零售"
+      "code": "003006",
+      "name": "百亚股份",
+      "pct": 6.43,
+      "volRatio": 1.89,
+      "turnover": 8.8,
+      "industry": "个护用品"
     },
     {
-      "code": "002011",
-      "name": "盾安环境",
-      "pct": 5.54,
-      "volRatio": 1.96,
-      "turnover": 11.84,
-      "industry": "家电零部件Ⅱ"
+      "code": "003013",
+      "name": "地铁设计",
+      "pct": 6.12,
+      "volRatio": 2.12,
+      "turnover": 4.57,
+      "industry": "工程咨询服务Ⅱ"
     },
     {
-      "code": "300131",
-      "name": "英唐智控",
-      "pct": 5.41,
-      "volRatio": 1.48,
-      "turnover": 8.76,
-      "industry": "其他电子Ⅱ"
+      "code": "002443",
+      "name": "金洲管道",
+      "pct": 5.73,
+      "volRatio": 1.37,
+      "turnover": 8.63,
+      "industry": "特钢Ⅱ"
+    },
+    {
+      "code": "600468",
+      "name": "百利电气",
+      "pct": 5.56,
+      "volRatio": 2.63,
+      "turnover": 7.34,
+      "industry": "电网设备"
+    },
+    {
+      "code": "600032",
+      "name": "浙江新能",
+      "pct": 5.53,
+      "volRatio": 5.09,
+      "turnover": 3.58,
+      "industry": "电力"
+    },
+    {
+      "code": "002181",
+      "name": "粤 传 媒",
+      "pct": 5.42,
+      "volRatio": 1.21,
+      "turnover": 10.63,
+      "industry": "出版"
+    },
+    {
+      "code": "603267",
+      "name": "鸿远电子",
+      "pct": 5.31,
+      "volRatio": 2.54,
+      "turnover": 5.51,
+      "industry": "军工电子Ⅱ"
     }
   ],
   "formal": [],
