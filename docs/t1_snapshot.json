@@ -1,115 +1,219 @@
 {
-  "generatedAt": "2026/9/11 18:09:18",
-  "signalTime": "2026-09-11T10:09:18.364Z",
+  "generatedAt": "2026/9/14 19:09:49",
+  "signalTime": "2026-09-14T11:09:49.466Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-11",
-  "marketScore": 30,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 30/100",
+  "date": "2026-09-14",
+  "marketScore": 54,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 54/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "warn",
+    "allow": true,
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
     "total": 5558,
     "rejectST": 471,
-    "rejectLimit": 45,
-    "rejectPct": 4775,
-    "rejectVolRatio": 39,
-    "rejectTurnover": 135,
-    "rejectMktcap": 52,
-    "passed": 41
+    "rejectLimit": 84,
+    "rejectPct": 4121,
+    "rejectVolRatio": 456,
+    "rejectTurnover": 260,
+    "rejectMktcap": 104,
+    "passed": 62
   },
   "benchmark": [
     {
-      "code": "688151",
-      "name": "华强科技",
-      "pct": 7.61,
-      "volRatio": 3.21,
-      "turnover": 3.43,
+      "code": "688260",
+      "name": "昀冢科技",
+      "pct": 8.71,
+      "volRatio": 2.19,
+      "turnover": 9.77,
+      "industry": "消费电子"
+    },
+    {
+      "code": "688378",
+      "name": "奥来德",
+      "pct": 8.64,
+      "volRatio": 1.52,
+      "turnover": 5.67,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "300951",
+      "name": "博硕科技",
+      "pct": 8.15,
+      "volRatio": 1.33,
+      "turnover": 4.61,
+      "industry": "消费电子"
+    },
+    {
+      "code": "300171",
+      "name": "东富龙",
+      "pct": 8.09,
+      "volRatio": 1.77,
+      "turnover": 3.23,
       "industry": "医疗器械"
     },
     {
-      "code": "603226",
-      "name": "菲林格尔",
-      "pct": 7.41,
-      "volRatio": 3.59,
-      "turnover": 4.08,
-      "industry": "家居用品"
+      "code": "688625",
+      "name": "呈和科技",
+      "pct": 7.92,
+      "volRatio": 1.79,
+      "turnover": 3.37,
+      "industry": "化学制品"
     },
     {
-      "code": "603533",
-      "name": "掌阅科技",
-      "pct": 6.64,
-      "volRatio": 1.35,
-      "turnover": 11.72,
-      "industry": "数字媒体"
-    },
-    {
-      "code": "003006",
-      "name": "百亚股份",
-      "pct": 6.43,
-      "volRatio": 1.89,
-      "turnover": 8.8,
-      "industry": "个护用品"
-    },
-    {
-      "code": "003013",
-      "name": "地铁设计",
-      "pct": 6.12,
-      "volRatio": 2.12,
-      "turnover": 4.57,
-      "industry": "工程咨询服务Ⅱ"
-    },
-    {
-      "code": "002443",
-      "name": "金洲管道",
-      "pct": 5.73,
+      "code": "603031",
+      "name": "安孚科技",
+      "pct": 7.73,
       "volRatio": 1.37,
-      "turnover": 8.63,
-      "industry": "特钢Ⅱ"
+      "turnover": 5,
+      "industry": "电池"
     },
     {
-      "code": "600468",
-      "name": "百利电气",
-      "pct": 5.56,
-      "volRatio": 2.63,
-      "turnover": 7.34,
-      "industry": "电网设备"
+      "code": "003033",
+      "name": "征和工业",
+      "pct": 7.39,
+      "volRatio": 1.69,
+      "turnover": 4.51,
+      "industry": "摩托车及其他"
     },
     {
-      "code": "600032",
-      "name": "浙江新能",
-      "pct": 5.53,
-      "volRatio": 5.09,
-      "turnover": 3.58,
-      "industry": "电力"
+      "code": "003036",
+      "name": "泰坦股份",
+      "pct": 7.37,
+      "volRatio": 1.36,
+      "turnover": 4.66,
+      "industry": "专用设备"
     },
     {
-      "code": "002181",
-      "name": "粤 传 媒",
-      "pct": 5.42,
-      "volRatio": 1.21,
-      "turnover": 10.63,
-      "industry": "出版"
+      "code": "688150",
+      "name": "莱特光电",
+      "pct": 7.35,
+      "volRatio": 1.98,
+      "turnover": 3.02,
+      "industry": "电子化学品Ⅱ"
     },
     {
-      "code": "603267",
-      "name": "鸿远电子",
-      "pct": 5.31,
-      "volRatio": 2.54,
-      "turnover": 5.51,
-      "industry": "军工电子Ⅱ"
+      "code": "300592",
+      "name": "华凯易佰",
+      "pct": 7.21,
+      "volRatio": 1.62,
+      "turnover": 5.7,
+      "industry": "互联网电商"
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "603031",
+      "name": "安孚科技",
+      "price": 43.75,
+      "pct": 7.73,
+      "industry": "电池",
+      "volMulti": 145.36,
+      "turnover": 5,
+      "delta": 0.05,
+      "dayHighTime": "11:27",
+      "tailNewHigh": false,
+      "closePos": 85,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 76,
+      "overnightScore": 65,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "300568",
+      "name": "星源材质",
+      "price": 15.32,
+      "pct": 6.39,
+      "industry": "电池",
+      "volMulti": 154.16,
+      "turnover": 7.23,
+      "delta": -0.07,
+      "dayHighTime": "10:31",
+      "tailNewHigh": false,
+      "closePos": 79,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 74,
+      "overnightScore": 50,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "300398",
+      "name": "飞凯材料",
+      "price": 34.69,
+      "pct": 5.76,
+      "industry": "电子化学品Ⅱ",
+      "volMulti": 113.56,
+      "turnover": 5.73,
+      "delta": 0.73,
+      "dayHighTime": "14:46",
+      "tailNewHigh": true,
+      "closePos": 99,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 60,
+      "overnightScore": 22,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "603031",
+      "name": "安孚科技",
+      "industry": "电池",
+      "quality": 76,
+      "overnight": 65,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "300568",
+      "name": "星源材质",
+      "industry": "电池",
+      "quality": 74,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "300398",
+      "name": "飞凯材料",
+      "industry": "电子化学品Ⅱ",
+      "quality": 60,
+      "overnight": 22,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
