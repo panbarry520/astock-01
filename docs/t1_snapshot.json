@@ -1,253 +1,115 @@
 {
-  "generatedAt": "2026/9/17 18:36:18",
-  "signalTime": "2026-09-17T10:36:18.263Z",
+  "generatedAt": "2026/9/18 18:14:36",
+  "signalTime": "2026-09-18T10:14:36.912Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-17",
-  "marketScore": 48,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 48/100",
+  "date": "2026-09-18",
+  "marketScore": 76,
+  "marketState": "ok",
+  "marketLabel": "🟢 短线市场温度 76/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "ok",
+    "allow": true,
+    "requireQ": 75,
+    "requireO": 75,
+    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
     "total": 5560,
     "rejectST": 471,
-    "rejectLimit": 66,
-    "rejectPct": 4362,
-    "rejectVolRatio": 215,
-    "rejectTurnover": 242,
-    "rejectMktcap": 134,
-    "passed": 70
+    "rejectLimit": 119,
+    "rejectPct": 3505,
+    "rejectVolRatio": 545,
+    "rejectTurnover": 459,
+    "rejectMktcap": 259,
+    "passed": 202
   },
   "benchmark": [
     {
-      "code": "301678",
-      "name": "新恒汇",
-      "pct": 8.95,
-      "volRatio": 5.21,
-      "turnover": 6.53,
+      "code": "688652",
+      "name": "京仪装备",
+      "pct": 9.16,
+      "volRatio": 2.01,
+      "turnover": 6.41,
       "industry": "半导体"
     },
     {
-      "code": "301550",
-      "name": "斯菱智驱",
-      "pct": 8.17,
-      "volRatio": 1.81,
-      "turnover": 6.63,
-      "industry": "汽车零部件"
+      "code": "300137",
+      "name": "先河环保",
+      "pct": 9,
+      "volRatio": 1.9,
+      "turnover": 8.25,
+      "industry": "环保设备Ⅱ"
     },
     {
-      "code": "301080",
-      "name": "百普赛斯",
-      "pct": 8.02,
+      "code": "688031",
+      "name": "星环科技-U",
+      "pct": 8.61,
       "volRatio": 1.28,
-      "turnover": 11.26,
-      "industry": "生物制品"
+      "turnover": 6.01,
+      "industry": "软件开发"
     },
     {
-      "code": "688079",
-      "name": "美迪凯",
-      "pct": 7.98,
-      "volRatio": 4.03,
-      "turnover": 7.99,
-      "industry": "光学光电子"
+      "code": "300740",
+      "name": "水羊股份",
+      "pct": 8.61,
+      "volRatio": 2.25,
+      "turnover": 11.51,
+      "industry": "化妆品"
     },
     {
-      "code": "002631",
-      "name": "德尔未来",
-      "pct": 7.12,
-      "volRatio": 2.09,
-      "turnover": 10.44,
-      "industry": "家居用品"
+      "code": "688315",
+      "name": "诺禾致源",
+      "pct": 8.45,
+      "volRatio": 3.07,
+      "turnover": 3.99,
+      "industry": "医疗服务"
     },
     {
-      "code": "300401",
-      "name": "花园生物",
-      "pct": 7.11,
-      "volRatio": 2.43,
-      "turnover": 8.98,
-      "industry": "化学制药"
+      "code": "688309",
+      "name": "恒誉科技",
+      "pct": 8.22,
+      "volRatio": 1.54,
+      "turnover": 3.47,
+      "industry": "环保设备Ⅱ"
     },
     {
-      "code": "300153",
-      "name": "科泰电源",
-      "pct": 7,
-      "volRatio": 2.1,
-      "turnover": 9.04,
-      "industry": "其他电源设备Ⅱ"
+      "code": "301093",
+      "name": "华兰股份",
+      "pct": 8.15,
+      "volRatio": 2.58,
+      "turnover": 4.67,
+      "industry": "医疗器械"
     },
     {
-      "code": "002734",
-      "name": "利民股份",
-      "pct": 6.94,
-      "volRatio": 1.5,
-      "turnover": 8.7,
-      "industry": "农化制品"
+      "code": "688610",
+      "name": "埃科光电",
+      "pct": 7.74,
+      "volRatio": 1.53,
+      "turnover": 3.77,
+      "industry": "通用设备"
     },
     {
-      "code": "000700",
-      "name": "模塑科技",
-      "pct": 6.83,
-      "volRatio": 2.96,
-      "turnover": 11.14,
-      "industry": "汽车零部件"
+      "code": "000628",
+      "name": "高新发展",
+      "pct": 7.63,
+      "volRatio": 1.58,
+      "turnover": 8.4,
+      "industry": "房屋建设Ⅱ"
     },
     {
-      "code": "002510",
-      "name": "天汽模",
-      "pct": 6.64,
-      "volRatio": 3.05,
-      "turnover": 7.89,
-      "industry": "汽车零部件"
+      "code": "300171",
+      "name": "东富龙",
+      "pct": 7.59,
+      "volRatio": 2.37,
+      "turnover": 5.83,
+      "industry": "医疗器械"
     }
   ],
   "formal": [],
-  "candidates": [
-    {
-      "code": "300401",
-      "name": "花园生物",
-      "price": 16.11,
-      "pct": 7.11,
-      "industry": "化学制药",
-      "volMulti": 185.14,
-      "turnover": 8.98,
-      "delta": -0.07,
-      "dayHighTime": "13:34",
-      "tailNewHigh": false,
-      "closePos": 90,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 74,
-      "overnightScore": 58,
-      "marketScore": 48,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "002510",
-      "name": "天汽模",
-      "price": 5.94,
-      "pct": 6.64,
-      "industry": "汽车零部件",
-      "volMulti": 412.49,
-      "turnover": 7.89,
-      "delta": 0,
-      "dayHighTime": "11:03",
-      "tailNewHigh": false,
-      "closePos": 73,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 69,
-      "overnightScore": 50,
-      "marketScore": 48,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "301047",
-      "name": "义翘神州",
-      "price": 108.16,
-      "pct": 6.15,
-      "industry": "生物制品",
-      "volMulti": 118.88,
-      "turnover": 8.21,
-      "delta": -0.17,
-      "dayHighTime": "09:57",
-      "tailNewHigh": false,
-      "closePos": 61,
-      "crowding": "中拥挤",
-      "fundTypes": [
-        "超跌反弹"
-      ],
-      "qualityScore": 64,
-      "overnightScore": 50,
-      "marketScore": 48,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "603613",
-      "name": "国联股份",
-      "price": 20.67,
-      "pct": 6.11,
-      "industry": "互联网电商",
-      "volMulti": 191.69,
-      "turnover": 3.04,
-      "delta": -0.15,
-      "dayHighTime": "10:43",
-      "tailNewHigh": false,
-      "closePos": 75,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 64,
-      "overnightScore": 50,
-      "marketScore": 48,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "300401",
-      "name": "花园生物",
-      "industry": "化学制药",
-      "quality": 74,
-      "overnight": 58,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "002510",
-      "name": "天汽模",
-      "industry": "汽车零部件",
-      "quality": 69,
-      "overnight": 50,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "301047",
-      "name": "义翘神州",
-      "industry": "生物制品",
-      "quality": 64,
-      "overnight": 50,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "603613",
-      "name": "国联股份",
-      "industry": "互联网电商",
-      "quality": 64,
-      "overnight": 50,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
