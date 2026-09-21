@@ -1,113 +1,32 @@
 {
-  "generatedAt": "2026/9/18 18:14:36",
-  "signalTime": "2026-09-18T10:14:36.912Z",
+  "generatedAt": "2026/9/21 19:18:57",
+  "signalTime": "2026-09-21T11:18:57.069Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-18",
-  "marketScore": 76,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 76/100",
+  "date": "2026-09-21",
+  "marketScore": 12,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 12/100",
   "gate": {
-    "tier": "ok",
-    "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
-    "total": 5560,
-    "rejectST": 471,
-    "rejectLimit": 119,
-    "rejectPct": 3505,
-    "rejectVolRatio": 545,
-    "rejectTurnover": 459,
-    "rejectMktcap": 259,
-    "passed": 202
+    "total": 0,
+    "rejectST": 0,
+    "rejectLimit": 0,
+    "rejectPct": 0,
+    "rejectVolRatio": 0,
+    "rejectTurnover": 0,
+    "rejectMktcap": 0,
+    "passed": 0
   },
-  "benchmark": [
-    {
-      "code": "688652",
-      "name": "京仪装备",
-      "pct": 9.16,
-      "volRatio": 2.01,
-      "turnover": 6.41,
-      "industry": "半导体"
-    },
-    {
-      "code": "300137",
-      "name": "先河环保",
-      "pct": 9,
-      "volRatio": 1.9,
-      "turnover": 8.25,
-      "industry": "环保设备Ⅱ"
-    },
-    {
-      "code": "688031",
-      "name": "星环科技-U",
-      "pct": 8.61,
-      "volRatio": 1.28,
-      "turnover": 6.01,
-      "industry": "软件开发"
-    },
-    {
-      "code": "300740",
-      "name": "水羊股份",
-      "pct": 8.61,
-      "volRatio": 2.25,
-      "turnover": 11.51,
-      "industry": "化妆品"
-    },
-    {
-      "code": "688315",
-      "name": "诺禾致源",
-      "pct": 8.45,
-      "volRatio": 3.07,
-      "turnover": 3.99,
-      "industry": "医疗服务"
-    },
-    {
-      "code": "688309",
-      "name": "恒誉科技",
-      "pct": 8.22,
-      "volRatio": 1.54,
-      "turnover": 3.47,
-      "industry": "环保设备Ⅱ"
-    },
-    {
-      "code": "301093",
-      "name": "华兰股份",
-      "pct": 8.15,
-      "volRatio": 2.58,
-      "turnover": 4.67,
-      "industry": "医疗器械"
-    },
-    {
-      "code": "688610",
-      "name": "埃科光电",
-      "pct": 7.74,
-      "volRatio": 1.53,
-      "turnover": 3.77,
-      "industry": "通用设备"
-    },
-    {
-      "code": "000628",
-      "name": "高新发展",
-      "pct": 7.63,
-      "volRatio": 1.58,
-      "turnover": 8.4,
-      "industry": "房屋建设Ⅱ"
-    },
-    {
-      "code": "300171",
-      "name": "东富龙",
-      "pct": 7.59,
-      "volRatio": 2.37,
-      "turnover": 5.83,
-      "industry": "医疗器械"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
   "candidates": [],
   "shadow": [],
