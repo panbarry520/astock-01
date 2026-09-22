@@ -1,32 +1,113 @@
 {
-  "generatedAt": "2026/9/21 19:18:57",
-  "signalTime": "2026-09-21T11:18:57.069Z",
+  "generatedAt": "2026/9/22 18:31:36",
+  "signalTime": "2026-09-22T10:31:36.398Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-21",
-  "marketScore": 12,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 12/100",
+  "date": "2026-09-22",
+  "marketScore": 60,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 60/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "warn",
+    "allow": true,
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 0,
-    "rejectST": 0,
-    "rejectLimit": 0,
-    "rejectPct": 0,
-    "rejectVolRatio": 0,
-    "rejectTurnover": 0,
-    "rejectMktcap": 0,
-    "passed": 0
+    "total": 4860,
+    "rejectST": 399,
+    "rejectLimit": 84,
+    "rejectPct": 3695,
+    "rejectVolRatio": 117,
+    "rejectTurnover": 281,
+    "rejectMktcap": 165,
+    "passed": 119
   },
-  "benchmark": [],
+  "benchmark": [
+    {
+      "code": "688615",
+      "name": "合合信息",
+      "pct": 8.79,
+      "volRatio": 2.71,
+      "turnover": 7.69,
+      "industry": "软件开发"
+    },
+    {
+      "code": "688628",
+      "name": "优利德",
+      "pct": 8.78,
+      "volRatio": 2.28,
+      "turnover": 10.61,
+      "industry": "通用设备"
+    },
+    {
+      "code": "300681",
+      "name": "英搏尔",
+      "pct": 8.15,
+      "volRatio": 2.7,
+      "turnover": 8.43,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "688258",
+      "name": "卓易信息",
+      "pct": 8.11,
+      "volRatio": 2.67,
+      "turnover": 5.5,
+      "industry": "IT服务Ⅱ"
+    },
+    {
+      "code": "300291",
+      "name": "百纳千成",
+      "pct": 8.01,
+      "volRatio": 2.56,
+      "turnover": 11.38,
+      "industry": "影视院线"
+    },
+    {
+      "code": "688049",
+      "name": "炬芯科技",
+      "pct": 7.56,
+      "volRatio": 3.83,
+      "turnover": 10.35,
+      "industry": "半导体"
+    },
+    {
+      "code": "002755",
+      "name": "奥赛康",
+      "pct": 7.55,
+      "volRatio": 3.57,
+      "turnover": 4.47,
+      "industry": "化学制药"
+    },
+    {
+      "code": "300113",
+      "name": "顺网科技",
+      "pct": 7.36,
+      "volRatio": 5.16,
+      "turnover": 9.78,
+      "industry": "游戏Ⅱ"
+    },
+    {
+      "code": "688191",
+      "name": "智洋创新",
+      "pct": 7.28,
+      "volRatio": 2.02,
+      "turnover": 3.2,
+      "industry": "电网设备"
+    },
+    {
+      "code": "000048",
+      "name": "京基智农",
+      "pct": 7.15,
+      "volRatio": 1.55,
+      "turnover": 5.64,
+      "industry": "养殖业"
+    }
+  ],
   "formal": [],
   "candidates": [],
   "shadow": [],
