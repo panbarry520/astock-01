@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/9/23 18:24:40",
-  "signalTime": "2026-09-23T10:24:40.728Z",
+  "generatedAt": "2026/9/24 18:41:45",
+  "signalTime": "2026-09-24T10:41:45.603Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-09-23",
-  "marketScore": 10,
+  "date": "2026-09-24",
+  "marketScore": 34,
   "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 10/100",
+  "marketLabel": "🔴 短线市场温度 34/100",
   "gate": {
     "tier": "no",
     "allow": false,
@@ -17,16 +17,97 @@
   },
   "weekendHold": false,
   "funnel": {
-    "total": 0,
-    "rejectST": 0,
-    "rejectLimit": 0,
-    "rejectPct": 0,
-    "rejectVolRatio": 0,
-    "rejectTurnover": 0,
-    "rejectMktcap": 0,
-    "passed": 0
+    "total": 5461,
+    "rejectST": 470,
+    "rejectLimit": 60,
+    "rejectPct": 4620,
+    "rejectVolRatio": 47,
+    "rejectTurnover": 157,
+    "rejectMktcap": 77,
+    "passed": 30
   },
-  "benchmark": [],
+  "benchmark": [
+    {
+      "code": "300569",
+      "name": "天能重工",
+      "pct": 6.88,
+      "volRatio": 2.74,
+      "turnover": 7.49,
+      "industry": "风电设备"
+    },
+    {
+      "code": "601566",
+      "name": "九牧王",
+      "pct": 6.85,
+      "volRatio": 2.49,
+      "turnover": 8.05,
+      "industry": "服装家纺"
+    },
+    {
+      "code": "605366",
+      "name": "宏柏新材",
+      "pct": 5.37,
+      "volRatio": 2.42,
+      "turnover": 9.49,
+      "industry": "化学制品"
+    },
+    {
+      "code": "688315",
+      "name": "诺禾致源",
+      "pct": 5.21,
+      "volRatio": 1.51,
+      "turnover": 8.65,
+      "industry": "医疗服务"
+    },
+    {
+      "code": "301322",
+      "name": "绿通科技",
+      "pct": 5.09,
+      "volRatio": 2.82,
+      "turnover": 8.74,
+      "industry": "摩托车及其他"
+    },
+    {
+      "code": "000670",
+      "name": "盈方微",
+      "pct": 4.89,
+      "volRatio": 1.39,
+      "turnover": 11.64,
+      "industry": "其他电子Ⅱ"
+    },
+    {
+      "code": "600207",
+      "name": "安彩高科",
+      "pct": 4.45,
+      "volRatio": 2.1,
+      "turnover": 7.45,
+      "industry": "光伏设备"
+    },
+    {
+      "code": "301189",
+      "name": "奥尼电子",
+      "pct": 4.39,
+      "volRatio": 1.62,
+      "turnover": 8.36,
+      "industry": "消费电子"
+    },
+    {
+      "code": "688776",
+      "name": "国光电气",
+      "pct": 4.33,
+      "volRatio": 4.86,
+      "turnover": 7.81,
+      "industry": "军工电子Ⅱ"
+    },
+    {
+      "code": "002638",
+      "name": "勤上股份",
+      "pct": 4.01,
+      "volRatio": 3.67,
+      "turnover": 8.4,
+      "industry": "照明设备Ⅱ"
+    }
+  ],
   "formal": [],
   "candidates": [],
   "shadow": [],
