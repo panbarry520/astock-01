@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/10/2 19:30:50",
-  "signalTime": "2026-10-02T11:30:50.028Z",
+  "generatedAt": "2026/10/5 20:54:30",
+  "signalTime": "2026-10-05T12:54:30.337Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-02",
-  "marketScore": 26,
+  "date": "2026-10-05",
+  "marketScore": 6,
   "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 26/100",
+  "marketLabel": "🔴 短线市场温度 6/100",
   "gate": {
     "tier": "no",
     "allow": false,
@@ -15,7 +15,7 @@
     "requireO": null,
     "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
     "total": 0,
     "rejectST": 0,
