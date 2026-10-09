@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026/10/8 20:25:36",
-  "signalTime": "2026-10-08T12:25:36.832Z",
+  "generatedAt": "2026/10/9 20:13:22",
+  "signalTime": "2026-10-09T12:13:22.652Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "marketScore": 26,
   "marketState": "no",
   "marketLabel": "🔴 短线市场温度 26/100",
@@ -15,99 +15,18 @@
     "requireO": null,
     "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
-    "total": 4662,
-    "rejectST": 373,
-    "rejectLimit": 54,
-    "rejectPct": 3710,
-    "rejectVolRatio": 99,
-    "rejectTurnover": 275,
-    "rejectMktcap": 93,
-    "passed": 58
+    "total": 0,
+    "rejectST": 0,
+    "rejectLimit": 0,
+    "rejectPct": 0,
+    "rejectVolRatio": 0,
+    "rejectTurnover": 0,
+    "rejectMktcap": 0,
+    "passed": 0
   },
-  "benchmark": [
-    {
-      "code": "603727",
-      "name": "博迈科",
-      "pct": 8.23,
-      "volRatio": 2.51,
-      "turnover": 4.97,
-      "industry": "油服工程"
-    },
-    {
-      "code": "300769",
-      "name": "德方纳米",
-      "pct": 7.2,
-      "volRatio": 3.49,
-      "turnover": 10.36,
-      "industry": "电池"
-    },
-    {
-      "code": "605100",
-      "name": "华丰股份",
-      "pct": 7.17,
-      "volRatio": 1.89,
-      "turnover": 3.81,
-      "industry": "通用设备"
-    },
-    {
-      "code": "300483",
-      "name": "首华燃气",
-      "pct": 7.03,
-      "volRatio": 2.18,
-      "turnover": 4.87,
-      "industry": "燃气Ⅱ"
-    },
-    {
-      "code": "688353",
-      "name": "华盛锂电",
-      "pct": 7,
-      "volRatio": 2.5,
-      "turnover": 4.12,
-      "industry": "电池"
-    },
-    {
-      "code": "601015",
-      "name": "陕西黑猫",
-      "pct": 6.98,
-      "volRatio": 2.08,
-      "turnover": 6.9,
-      "industry": "焦炭Ⅱ"
-    },
-    {
-      "code": "688499",
-      "name": "利元亨",
-      "pct": 6.64,
-      "volRatio": 1.61,
-      "turnover": 9.99,
-      "industry": "电池"
-    },
-    {
-      "code": "003013",
-      "name": "地铁设计",
-      "pct": 6.38,
-      "volRatio": 2.68,
-      "turnover": 4.84,
-      "industry": "工程咨询服务Ⅱ"
-    },
-    {
-      "code": "603099",
-      "name": "长白山",
-      "pct": 6,
-      "volRatio": 1.46,
-      "turnover": 6.41,
-      "industry": "旅游及景区"
-    },
-    {
-      "code": "688818",
-      "name": "电科蓝天",
-      "pct": 5.93,
-      "volRatio": 2.67,
-      "turnover": 8.39,
-      "industry": "航天装备Ⅱ"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
   "candidates": [],
   "shadow": [],
