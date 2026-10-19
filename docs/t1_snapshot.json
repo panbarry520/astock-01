@@ -1,113 +1,32 @@
 {
-  "generatedAt": "2026/10/16 18:21:14",
-  "signalTime": "2026-10-16T10:21:14.531Z",
+  "generatedAt": "2026/10/19 19:27:30",
+  "signalTime": "2026-10-19T11:27:30.804Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-16",
-  "marketScore": 82,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 82/100",
+  "date": "2026-10-19",
+  "marketScore": 26,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 26/100",
   "gate": {
-    "tier": "ok",
-    "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
-    "total": 600,
-    "rejectST": 14,
+    "total": 0,
+    "rejectST": 0,
     "rejectLimit": 0,
-    "rejectPct": 62,
-    "rejectVolRatio": 270,
-    "rejectTurnover": 139,
-    "rejectMktcap": 81,
-    "passed": 34
+    "rejectPct": 0,
+    "rejectVolRatio": 0,
+    "rejectTurnover": 0,
+    "rejectMktcap": 0,
+    "passed": 0
   },
-  "benchmark": [
-    {
-      "code": "300722",
-      "name": "新余国科",
-      "pct": 7.58,
-      "volRatio": 4.5,
-      "turnover": 4.18,
-      "industry": "航天装备Ⅱ"
-    },
-    {
-      "code": "002626",
-      "name": "金达威",
-      "pct": 7.39,
-      "volRatio": 8.17,
-      "turnover": 4.65,
-      "industry": "食品加工"
-    },
-    {
-      "code": "603221",
-      "name": "爱丽家居",
-      "pct": 7.21,
-      "volRatio": 1.59,
-      "turnover": 7.44,
-      "industry": "家居用品"
-    },
-    {
-      "code": "600252",
-      "name": "中恒集团",
-      "pct": 6.96,
-      "volRatio": 2.1,
-      "turnover": 10.63,
-      "industry": "中药Ⅱ"
-    },
-    {
-      "code": "300516",
-      "name": "久之洋",
-      "pct": 6.53,
-      "volRatio": 1.99,
-      "turnover": 9.16,
-      "industry": "其他电子Ⅱ"
-    },
-    {
-      "code": "605133",
-      "name": "嵘泰股份",
-      "pct": 6.51,
-      "volRatio": 1.38,
-      "turnover": 4.99,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "000090",
-      "name": "天健集团",
-      "pct": 6.45,
-      "volRatio": 3.13,
-      "turnover": 4.74,
-      "industry": "房地产开发"
-    },
-    {
-      "code": "300779",
-      "name": "惠城环保",
-      "pct": 6.29,
-      "volRatio": 2.3,
-      "turnover": 6.23,
-      "industry": "环境治理"
-    },
-    {
-      "code": "600698",
-      "name": "湖南天雁",
-      "pct": 6.04,
-      "volRatio": 3.16,
-      "turnover": 6.41,
-      "industry": "汽车零部件"
-    },
-    {
-      "code": "000923",
-      "name": "河钢资源",
-      "pct": 5.96,
-      "volRatio": 1.65,
-      "turnover": 3.12,
-      "industry": "冶钢原料"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
   "candidates": [],
   "shadow": [],
