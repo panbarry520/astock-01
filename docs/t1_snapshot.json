@@ -1,34 +1,70 @@
 {
-  "generatedAt": "2026/10/21 18:47:36",
-  "signalTime": "2026-10-21T10:47:36.212Z",
+  "generatedAt": "2026/10/22 18:47:29",
+  "signalTime": "2026-10-22T10:47:29.490Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-21",
-  "marketScore": 74,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 74/100",
+  "date": "2026-10-22",
+  "marketScore": 60,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 60/100",
   "gate": {
-    "tier": "ok",
+    "tier": "warn",
     "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
   "weekendHold": false,
   "funnel": {
     "total": 5563,
     "rejectST": 467,
-    "rejectLimit": 60,
-    "rejectPct": 4510,
-    "rejectVolRatio": 193,
-    "rejectTurnover": 177,
-    "rejectMktcap": 85,
-    "passed": 71
+    "rejectLimit": 37,
+    "rejectPct": 4881,
+    "rejectVolRatio": 6,
+    "rejectTurnover": 121,
+    "rejectMktcap": 29,
+    "passed": 22
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "601177",
+      "name": "杭齿前进",
+      "price": 13.94,
+      "pct": 5.37,
+      "industry": "通用设备",
+      "volMulti": 656.29,
+      "turnover": 6.65,
+      "delta": 0.3,
+      "dayHighTime": "09:42",
+      "tailNewHigh": false,
+      "closePos": 53,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 63,
+      "overnightScore": 60,
+      "marketScore": 60,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "601177",
+      "name": "杭齿前进",
+      "industry": "通用设备",
+      "quality": 63,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
