@@ -1,70 +1,34 @@
 {
-  "generatedAt": "2026/10/26 19:47:17",
-  "signalTime": "2026-10-26T11:47:17.473Z",
+  "generatedAt": "2026/10/27 19:13:07",
+  "signalTime": "2026-10-27T11:13:07.413Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-26",
-  "marketScore": 74,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 74/100",
+  "date": "2026-10-27",
+  "marketScore": 42,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 42/100",
   "gate": {
-    "tier": "ok",
-    "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5363,
-    "rejectST": 462,
-    "rejectLimit": 72,
-    "rejectPct": 4158,
-    "rejectVolRatio": 178,
-    "rejectTurnover": 329,
-    "rejectMktcap": 95,
-    "passed": 69
+    "total": 5463,
+    "rejectST": 464,
+    "rejectLimit": 51,
+    "rejectPct": 4703,
+    "rejectVolRatio": 37,
+    "rejectTurnover": 147,
+    "rejectMktcap": 37,
+    "passed": 24
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [
-    {
-      "code": "300298",
-      "name": "三诺生物",
-      "price": 19.25,
-      "pct": 6.89,
-      "industry": "医疗器械",
-      "volMulti": 673.45,
-      "turnover": 9.47,
-      "delta": 0,
-      "dayHighTime": "10:02",
-      "tailNewHigh": false,
-      "closePos": 86,
-      "crowding": "中拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 66,
-      "overnightScore": 65,
-      "marketScore": 74,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "300298",
-      "name": "三诺生物",
-      "industry": "医疗器械",
-      "quality": 66,
-      "overnight": 65,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
