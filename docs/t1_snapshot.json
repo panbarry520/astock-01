@@ -1,34 +1,70 @@
 {
-  "generatedAt": "2026/10/29 19:55:32",
-  "signalTime": "2026-10-29T11:55:32.741Z",
+  "generatedAt": "2026/10/30 19:49:33",
+  "signalTime": "2026-10-30T11:49:33.196Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-29",
-  "marketScore": 40,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 40/100",
+  "date": "2026-10-30",
+  "marketScore": 62,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 62/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "warn",
+    "allow": true,
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": false,
+  "weekendHold": true,
   "funnel": {
-    "total": 4000,
-    "rejectST": 408,
-    "rejectLimit": 46,
-    "rejectPct": 3235,
-    "rejectVolRatio": 61,
-    "rejectTurnover": 168,
-    "rejectMktcap": 40,
-    "passed": 42
+    "total": 4363,
+    "rejectST": 431,
+    "rejectLimit": 56,
+    "rejectPct": 3556,
+    "rejectVolRatio": 47,
+    "rejectTurnover": 188,
+    "rejectMktcap": 33,
+    "passed": 52
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "price": 11.63,
+      "pct": 6.89,
+      "industry": "白酒Ⅱ",
+      "volMulti": 223.88,
+      "turnover": 4.66,
+      "delta": 0.83,
+      "dayHighTime": "13:39",
+      "tailNewHigh": false,
+      "closePos": 82,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 60,
+      "overnightScore": 58,
+      "marketScore": 62,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "industry": "白酒Ⅱ",
+      "quality": 60,
+      "overnight": 58,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
