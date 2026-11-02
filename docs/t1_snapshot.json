@@ -1,70 +1,34 @@
 {
-  "generatedAt": "2026/10/30 19:49:33",
-  "signalTime": "2026-10-30T11:49:33.196Z",
+  "generatedAt": "2026/11/2 22:04:34",
+  "signalTime": "2026-11-02T14:04:34.274Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-10-30",
-  "marketScore": 62,
-  "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 62/100",
+  "date": "2026-11-02",
+  "marketScore": 70,
+  "marketState": "ok",
+  "marketLabel": "🟢 短线市场温度 70/100",
   "gate": {
-    "tier": "warn",
+    "tier": "ok",
     "allow": true,
-    "requireQ": 80,
-    "requireO": 80,
-    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
+    "requireQ": 75,
+    "requireO": 75,
+    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
-    "total": 4363,
-    "rejectST": 431,
-    "rejectLimit": 56,
-    "rejectPct": 3556,
-    "rejectVolRatio": 47,
-    "rejectTurnover": 188,
-    "rejectMktcap": 33,
-    "passed": 52
+    "total": 5563,
+    "rejectST": 467,
+    "rejectLimit": 220,
+    "rejectPct": 2499,
+    "rejectVolRatio": 1169,
+    "rejectTurnover": 775,
+    "rejectMktcap": 292,
+    "passed": 141
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [
-    {
-      "code": "000860",
-      "name": "顺鑫农业",
-      "price": 11.63,
-      "pct": 6.89,
-      "industry": "白酒Ⅱ",
-      "volMulti": 223.88,
-      "turnover": 4.66,
-      "delta": 0.83,
-      "dayHighTime": "13:39",
-      "tailNewHigh": false,
-      "closePos": 82,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 60,
-      "overnightScore": 58,
-      "marketScore": 62,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "000860",
-      "name": "顺鑫农业",
-      "industry": "白酒Ⅱ",
-      "quality": 60,
-      "overnight": 58,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
