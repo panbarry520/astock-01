@@ -1,34 +1,138 @@
 {
-  "generatedAt": "2026/11/2 22:04:34",
-  "signalTime": "2026-11-02T14:04:34.274Z",
+  "generatedAt": "2026/11/3 21:10:53",
+  "signalTime": "2026-11-03T13:10:53.597Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-02",
-  "marketScore": 70,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 70/100",
+  "date": "2026-11-03",
+  "marketScore": 52,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 52/100",
   "gate": {
-    "tier": "ok",
+    "tier": "warn",
     "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
   "weekendHold": false,
   "funnel": {
     "total": 5563,
     "rejectST": 467,
-    "rejectLimit": 220,
-    "rejectPct": 2499,
-    "rejectVolRatio": 1169,
-    "rejectTurnover": 775,
-    "rejectMktcap": 292,
-    "passed": 141
+    "rejectLimit": 54,
+    "rejectPct": 4478,
+    "rejectVolRatio": 142,
+    "rejectTurnover": 316,
+    "rejectMktcap": 70,
+    "passed": 36
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "600569",
+      "name": "安阳钢铁",
+      "price": 1.85,
+      "pct": 4.52,
+      "industry": "普钢",
+      "volMulti": 414.93,
+      "turnover": 3.22,
+      "delta": 0,
+      "dayHighTime": "09:34",
+      "tailNewHigh": false,
+      "closePos": 69,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 68,
+      "overnightScore": 60,
+      "marketScore": 52,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒",
+      "price": 12.2,
+      "pct": 3.74,
+      "industry": "白酒Ⅱ",
+      "volMulti": 327.59,
+      "turnover": 4.84,
+      "delta": 0.09,
+      "dayHighTime": "09:45",
+      "tailNewHigh": false,
+      "closePos": 79,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 68,
+      "overnightScore": 60,
+      "marketScore": 52,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "603477",
+      "name": "巨星农牧",
+      "price": 14.57,
+      "pct": 6.9,
+      "industry": "养殖业",
+      "volMulti": 206.37,
+      "turnover": 4.17,
+      "delta": 0.15,
+      "dayHighTime": "13:34",
+      "tailNewHigh": false,
+      "closePos": 89,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 63,
+      "overnightScore": 58,
+      "marketScore": 52,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "600569",
+      "name": "安阳钢铁",
+      "industry": "普钢",
+      "quality": 68,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "600559",
+      "name": "老白干酒",
+      "industry": "白酒Ⅱ",
+      "quality": 68,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "603477",
+      "name": "巨星农牧",
+      "industry": "养殖业",
+      "quality": 63,
+      "overnight": 58,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
