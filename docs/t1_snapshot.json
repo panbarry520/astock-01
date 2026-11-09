@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/11/6 21:23:49",
-  "signalTime": "2026-11-06T13:23:49.222Z",
+  "generatedAt": "2026/11/9 22:37:16",
+  "signalTime": "2026-11-09T14:37:16.814Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-06",
-  "marketScore": 40,
+  "date": "2026-11-09",
+  "marketScore": 44,
   "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 40/100",
+  "marketLabel": "🔴 短线市场温度 44/100",
   "gate": {
     "tier": "no",
     "allow": false,
@@ -15,239 +15,101 @@
     "requireO": null,
     "label": "禁止隔夜交易（温度<50）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
     "total": 5563,
     "rejectST": 467,
-    "rejectLimit": 38,
-    "rejectPct": 4853,
-    "rejectVolRatio": 49,
-    "rejectTurnover": 101,
-    "rejectMktcap": 30,
-    "passed": 25
+    "rejectLimit": 73,
+    "rejectPct": 4369,
+    "rejectVolRatio": 412,
+    "rejectTurnover": 136,
+    "rejectMktcap": 63,
+    "passed": 43
   },
   "benchmark": [
     {
-      "code": "300695",
-      "name": "兆丰股份",
-      "pct": 9.31,
-      "volRatio": 1.58,
-      "turnover": 7.46,
+      "code": "002779",
+      "name": "中坚科技",
+      "pct": 9.34,
+      "volRatio": 1.54,
+      "turnover": 4.19,
+      "industry": "专用设备"
+    },
+    {
+      "code": "688799",
+      "name": "华纳药厂",
+      "pct": 9.13,
+      "volRatio": 2.97,
+      "turnover": 3.97,
+      "industry": "化学制药"
+    },
+    {
+      "code": "600593",
+      "name": "大连圣亚",
+      "pct": 9.11,
+      "volRatio": 1.41,
+      "turnover": 10.38,
+      "industry": "旅游及景区"
+    },
+    {
+      "code": "300005",
+      "name": "探路者",
+      "pct": 8.68,
+      "volRatio": 1.88,
+      "turnover": 6.84,
+      "industry": "服装家纺"
+    },
+    {
+      "code": "300969",
+      "name": "恒帅股份",
+      "pct": 8.61,
+      "volRatio": 1.31,
+      "turnover": 9.5,
       "industry": "汽车零部件"
     },
     {
-      "code": "301265",
-      "name": "华新科技",
-      "pct": 8.95,
-      "volRatio": 2.52,
-      "turnover": 7.9,
-      "industry": "环境治理"
+      "code": "300007",
+      "name": "汉威科技",
+      "pct": 8.49,
+      "volRatio": 1.45,
+      "turnover": 11.25,
+      "industry": "通用设备"
     },
     {
-      "code": "688228",
-      "name": "开普云",
-      "pct": 8.01,
-      "volRatio": 1.91,
-      "turnover": 7.5,
-      "industry": "IT服务Ⅱ"
+      "code": "603040",
+      "name": "新坐标",
+      "pct": 8.48,
+      "volRatio": 1.97,
+      "turnover": 3.97,
+      "industry": "汽车零部件"
     },
     {
-      "code": "600038",
-      "name": "中直股份",
-      "pct": 5.93,
-      "volRatio": 3.65,
-      "turnover": 3.7,
-      "industry": "航空装备Ⅱ"
-    },
-    {
-      "code": "300528",
-      "name": "幸福蓝海",
-      "pct": 5.77,
-      "volRatio": 1.83,
-      "turnover": 8.57,
+      "code": "601595",
+      "name": "上海电影",
+      "pct": 8.22,
+      "volRatio": 1.47,
+      "turnover": 7.04,
       "industry": "影视院线"
     },
     {
-      "code": "600744",
-      "name": "华银电力",
-      "pct": 5.44,
-      "volRatio": 4.26,
-      "turnover": 7.57,
-      "industry": "电力"
+      "code": "603901",
+      "name": "永创智能",
+      "pct": 8.15,
+      "volRatio": 1.85,
+      "turnover": 8.54,
+      "industry": "专用设备"
     },
     {
-      "code": "300393",
-      "name": "中来股份",
-      "pct": 5.4,
-      "volRatio": 2.52,
-      "turnover": 10.56,
-      "industry": "光伏设备"
-    },
-    {
-      "code": "600410",
-      "name": "华胜天成",
-      "pct": 5.32,
-      "volRatio": 2.56,
-      "turnover": 11.43,
-      "industry": "IT服务Ⅱ"
-    },
-    {
-      "code": "300217",
-      "name": "东方电热",
-      "pct": 5.19,
-      "volRatio": 3.91,
-      "turnover": 7.28,
-      "industry": "家电零部件Ⅱ"
-    },
-    {
-      "code": "002488",
-      "name": "金固股份",
-      "pct": 4.94,
-      "volRatio": 2.01,
-      "turnover": 6.83,
-      "industry": "汽车零部件"
+      "code": "600403",
+      "name": "大有能源",
+      "pct": 7.92,
+      "volRatio": 2.11,
+      "turnover": 4.17,
+      "industry": "煤炭开采"
     }
   ],
   "formal": [],
-  "candidates": [
-    {
-      "code": "002041",
-      "name": "登海种业",
-      "price": 9.03,
-      "pct": 2.73,
-      "industry": "种植业",
-      "volMulti": 179.04,
-      "turnover": 5.17,
-      "delta": -0.11,
-      "dayHighTime": "09:44",
-      "tailNewHigh": false,
-      "closePos": 71,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "超跌反弹"
-      ],
-      "qualityScore": 68,
-      "overnightScore": 60,
-      "marketScore": 40,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "000690",
-      "name": "宝新能源",
-      "price": 5.73,
-      "pct": 2.87,
-      "industry": "电力",
-      "volMulti": 130.34,
-      "turnover": 4.68,
-      "delta": -0.18,
-      "dayHighTime": "13:52",
-      "tailNewHigh": false,
-      "closePos": 87,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 63,
-      "overnightScore": 58,
-      "marketScore": 40,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "600744",
-      "name": "华银电力",
-      "price": 6.01,
-      "pct": 5.44,
-      "industry": "电力",
-      "volMulti": 459.84,
-      "turnover": 7.57,
-      "delta": 0.7,
-      "dayHighTime": "13:26",
-      "tailNewHigh": false,
-      "closePos": 82,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 61,
-      "overnightScore": 65,
-      "marketScore": 40,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    },
-    {
-      "code": "002697",
-      "name": "红旗连锁",
-      "price": 4.94,
-      "pct": 2.28,
-      "industry": "一般零售",
-      "volMulti": 338.83,
-      "turnover": 5.41,
-      "delta": 0.21,
-      "dayHighTime": "14:00",
-      "tailNewHigh": false,
-      "closePos": 61,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 61,
-      "overnightScore": 43,
-      "marketScore": 40,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "禁止",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "002041",
-      "name": "登海种业",
-      "industry": "种植业",
-      "quality": 68,
-      "overnight": 60,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "000690",
-      "name": "宝新能源",
-      "industry": "电力",
-      "quality": 63,
-      "overnight": 58,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "600744",
-      "name": "华银电力",
-      "industry": "电力",
-      "quality": 61,
-      "overnight": 65,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "002697",
-      "name": "红旗连锁",
-      "industry": "一般零售",
-      "quality": 61,
-      "overnight": 43,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
