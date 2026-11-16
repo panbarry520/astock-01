@@ -1,147 +1,100 @@
 {
-  "generatedAt": "2026/11/13 21:34:20",
-  "signalTime": "2026-11-13T13:34:20.517Z",
+  "generatedAt": "2026/11/16 22:10:55",
+  "signalTime": "2026-11-16T14:10:55.408Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-13",
-  "marketScore": 44,
-  "marketState": "no",
-  "marketLabel": "🔴 短线市场温度 44/100",
+  "date": "2026-11-16",
+  "marketScore": 64,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 64/100",
   "gate": {
-    "tier": "no",
-    "allow": false,
-    "requireQ": null,
-    "requireO": null,
-    "label": "禁止隔夜交易（温度<50）"
+    "tier": "warn",
+    "allow": true,
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
-  "weekendHold": true,
+  "weekendHold": false,
   "funnel": {
-    "total": 1500,
-    "rejectST": 127,
-    "rejectLimit": 42,
-    "rejectPct": 1209,
-    "rejectVolRatio": 27,
-    "rejectTurnover": 57,
-    "rejectMktcap": 23,
-    "passed": 15
+    "total": 5564,
+    "rejectST": 466,
+    "rejectLimit": 35,
+    "rejectPct": 4683,
+    "rejectVolRatio": 70,
+    "rejectTurnover": 244,
+    "rejectMktcap": 43,
+    "passed": 23
   },
-  "benchmark": [
-    {
-      "code": "688765",
-      "name": "禾元生物-U",
-      "pct": 8.76,
-      "volRatio": 2.31,
-      "turnover": 4.89,
-      "industry": "生物制品"
-    },
-    {
-      "code": "301209",
-      "name": "联合化学",
-      "pct": 7.34,
-      "volRatio": 1.3,
-      "turnover": 7.64,
-      "industry": "化学制品"
-    },
-    {
-      "code": "688371",
-      "name": "菲沃泰",
-      "pct": 6.48,
-      "volRatio": 1.91,
-      "turnover": 7.28,
-      "industry": "电子化学品Ⅱ"
-    },
-    {
-      "code": "301069",
-      "name": "凯盛新材",
-      "pct": 6.33,
-      "volRatio": 2.46,
-      "turnover": 7.16,
-      "industry": "化学原料"
-    },
-    {
-      "code": "001328",
-      "name": "登康口腔",
-      "pct": 6.21,
-      "volRatio": 1.49,
-      "turnover": 3.08,
-      "industry": "个护用品"
-    },
-    {
-      "code": "300692",
-      "name": "中赋科技",
-      "pct": 5.93,
-      "volRatio": 2.15,
-      "turnover": 11.34,
-      "industry": "环境治理"
-    },
-    {
-      "code": "002039",
-      "name": "黔源电力",
-      "pct": 5.39,
-      "volRatio": 4.26,
-      "turnover": 4.99,
-      "industry": "电力"
-    },
-    {
-      "code": "000034",
-      "name": "神州数码",
-      "pct": 5.36,
-      "volRatio": 3.98,
-      "turnover": 5.56,
-      "industry": "IT服务Ⅱ"
-    },
-    {
-      "code": "605288",
-      "name": "凯迪股份",
-      "pct": 5.24,
-      "volRatio": 1.41,
-      "turnover": 3.92,
-      "industry": "自动化设备"
-    },
-    {
-      "code": "603477",
-      "name": "巨星农牧",
-      "pct": 5.15,
-      "volRatio": 2.58,
-      "turnover": 4.78,
-      "industry": "养殖业"
-    }
-  ],
+  "benchmark": [],
   "formal": [],
   "candidates": [
     {
-      "code": "301069",
-      "name": "凯盛新材",
-      "price": 18.98,
-      "pct": 6.33,
-      "industry": "化学原料",
-      "volMulti": 191.31,
-      "turnover": 7.16,
-      "delta": 0.34,
-      "dayHighTime": "11:24",
+      "code": "000860",
+      "name": "顺鑫农业",
+      "price": 12.7,
+      "pct": 6.1,
+      "industry": "白酒Ⅱ",
+      "volMulti": 180.92,
+      "turnover": 5.84,
+      "delta": 0.17,
+      "dayHighTime": "10:44",
       "tailNewHigh": false,
-      "closePos": 82,
+      "closePos": 84,
       "crowding": "低拥挤",
       "fundTypes": [
         "中性"
       ],
-      "qualityScore": 66,
+      "qualityScore": 61,
       "overnightScore": 65,
-      "marketScore": 44,
+      "marketScore": 64,
       "dataStatus": "invalid",
       "passed": false,
-      "recommendation": "禁止",
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "301069",
+      "name": "凯盛新材",
+      "price": 19.64,
+      "pct": 3.48,
+      "industry": "化学原料",
+      "volMulti": 191.22,
+      "turnover": 7.52,
+      "delta": 0.95,
+      "dayHighTime": "11:11",
+      "tailNewHigh": false,
+      "closePos": 85,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 65,
+      "marketScore": 64,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
       "shadow": false
     }
   ],
   "shadow": [],
   "all": [
     {
+      "code": "000860",
+      "name": "顺鑫农业",
+      "industry": "白酒Ⅱ",
+      "quality": 61,
+      "overnight": 65,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
       "code": "301069",
       "name": "凯盛新材",
       "industry": "化学原料",
-      "quality": 66,
+      "quality": 61,
       "overnight": 65,
       "passed": false,
       "shadow": false,
