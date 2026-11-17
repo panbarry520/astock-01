@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/11/16 22:10:55",
-  "signalTime": "2026-11-16T14:10:55.408Z",
+  "generatedAt": "2026/11/17 23:04:10",
+  "signalTime": "2026-11-17T15:04:10.371Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-16",
-  "marketScore": 64,
+  "date": "2026-11-17",
+  "marketScore": 62,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 64/100",
+  "marketLabel": "🟡 短线市场温度 62/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -19,86 +19,16 @@
   "funnel": {
     "total": 5564,
     "rejectST": 466,
-    "rejectLimit": 35,
-    "rejectPct": 4683,
-    "rejectVolRatio": 70,
-    "rejectTurnover": 244,
-    "rejectMktcap": 43,
-    "passed": 23
+    "rejectLimit": 49,
+    "rejectPct": 4673,
+    "rejectVolRatio": 89,
+    "rejectTurnover": 175,
+    "rejectMktcap": 74,
+    "passed": 38
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [
-    {
-      "code": "000860",
-      "name": "顺鑫农业",
-      "price": 12.7,
-      "pct": 6.1,
-      "industry": "白酒Ⅱ",
-      "volMulti": 180.92,
-      "turnover": 5.84,
-      "delta": 0.17,
-      "dayHighTime": "10:44",
-      "tailNewHigh": false,
-      "closePos": 84,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 61,
-      "overnightScore": 65,
-      "marketScore": 64,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    },
-    {
-      "code": "301069",
-      "name": "凯盛新材",
-      "price": 19.64,
-      "pct": 3.48,
-      "industry": "化学原料",
-      "volMulti": 191.22,
-      "turnover": 7.52,
-      "delta": 0.95,
-      "dayHighTime": "11:11",
-      "tailNewHigh": false,
-      "closePos": 85,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 61,
-      "overnightScore": 65,
-      "marketScore": 64,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
-    }
-  ],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "000860",
-      "name": "顺鑫农业",
-      "industry": "白酒Ⅱ",
-      "quality": 61,
-      "overnight": 65,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    },
-    {
-      "code": "301069",
-      "name": "凯盛新材",
-      "industry": "化学原料",
-      "quality": 61,
-      "overnight": 65,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
