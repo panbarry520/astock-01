@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026/11/17 23:04:10",
-  "signalTime": "2026-11-17T15:04:10.371Z",
+  "generatedAt": "2026/11/18 22:44:19",
+  "signalTime": "2026-11-18T14:44:19.579Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-17",
-  "marketScore": 62,
+  "date": "2026-11-18",
+  "marketScore": 56,
   "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 62/100",
+  "marketLabel": "🟡 短线市场温度 56/100",
   "gate": {
     "tier": "warn",
     "allow": true,
@@ -17,18 +17,54 @@
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5564,
+    "total": 5565,
     "rejectST": 466,
-    "rejectLimit": 49,
-    "rejectPct": 4673,
-    "rejectVolRatio": 89,
-    "rejectTurnover": 175,
-    "rejectMktcap": 74,
-    "passed": 38
+    "rejectLimit": 56,
+    "rejectPct": 4621,
+    "rejectVolRatio": 194,
+    "rejectTurnover": 152,
+    "rejectMktcap": 51,
+    "passed": 25
   },
   "benchmark": [],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "000034",
+      "name": "神州数码",
+      "price": 23,
+      "pct": 4.21,
+      "industry": "IT服务Ⅱ",
+      "volMulti": 282.81,
+      "turnover": 5.74,
+      "delta": 0.72,
+      "dayHighTime": "14:57",
+      "tailNewHigh": true,
+      "closePos": 99,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 65,
+      "overnightScore": 22,
+      "marketScore": 56,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "000034",
+      "name": "神州数码",
+      "industry": "IT服务Ⅱ",
+      "quality": 65,
+      "overnight": 22,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
