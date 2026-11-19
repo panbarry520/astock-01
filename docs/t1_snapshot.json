@@ -1,70 +1,115 @@
 {
-  "generatedAt": "2026/11/18 22:44:19",
-  "signalTime": "2026-11-18T14:44:19.579Z",
+  "generatedAt": "2026/11/19 22:52:07",
+  "signalTime": "2026-11-19T14:52:07.615Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-18",
-  "marketScore": 56,
-  "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 56/100",
+  "date": "2026-11-19",
+  "marketScore": 44,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 44/100",
   "gate": {
-    "tier": "warn",
-    "allow": true,
-    "requireQ": 80,
-    "requireO": 80,
-    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5565,
-    "rejectST": 466,
-    "rejectLimit": 56,
-    "rejectPct": 4621,
-    "rejectVolRatio": 194,
-    "rejectTurnover": 152,
-    "rejectMktcap": 51,
-    "passed": 25
+    "total": 600,
+    "rejectST": 52,
+    "rejectLimit": 0,
+    "rejectPct": 435,
+    "rejectVolRatio": 35,
+    "rejectTurnover": 54,
+    "rejectMktcap": 12,
+    "passed": 12
   },
-  "benchmark": [],
-  "formal": [],
-  "candidates": [
+  "benchmark": [
     {
-      "code": "000034",
-      "name": "神州数码",
-      "price": 23,
-      "pct": 4.21,
-      "industry": "IT服务Ⅱ",
-      "volMulti": 282.81,
-      "turnover": 5.74,
-      "delta": 0.72,
-      "dayHighTime": "14:57",
-      "tailNewHigh": true,
-      "closePos": 99,
-      "crowding": "低拥挤",
-      "fundTypes": [
-        "中性"
-      ],
-      "qualityScore": 65,
-      "overnightScore": 22,
-      "marketScore": 56,
-      "dataStatus": "invalid",
-      "passed": false,
-      "recommendation": "观望",
-      "shadow": false
+      "code": "002745",
+      "name": "木林森",
+      "pct": 4.02,
+      "volRatio": 2.02,
+      "turnover": 5.36,
+      "industry": "光学光电子"
+    },
+    {
+      "code": "600770",
+      "name": "综艺股份",
+      "pct": 3.98,
+      "volRatio": 1.85,
+      "turnover": 5.4,
+      "industry": "综合Ⅱ"
+    },
+    {
+      "code": "300416",
+      "name": "苏试试验",
+      "pct": 3.81,
+      "volRatio": 3.15,
+      "turnover": 5.54,
+      "industry": "专业服务"
+    },
+    {
+      "code": "605577",
+      "name": "龙版传媒",
+      "pct": 3.81,
+      "volRatio": 1.41,
+      "turnover": 10.58,
+      "industry": "出版"
+    },
+    {
+      "code": "002668",
+      "name": "TCL智家",
+      "pct": 3.61,
+      "volRatio": 1.66,
+      "turnover": 3.25,
+      "industry": "白色家电"
+    },
+    {
+      "code": "002706",
+      "name": "良信股份",
+      "pct": 3.31,
+      "volRatio": 1.91,
+      "turnover": 3.57,
+      "industry": "电网设备"
+    },
+    {
+      "code": "600744",
+      "name": "华银电力",
+      "pct": 3.01,
+      "volRatio": 1.89,
+      "turnover": 3.61,
+      "industry": "电力"
+    },
+    {
+      "code": "002039",
+      "name": "黔源电力",
+      "pct": 2.93,
+      "volRatio": 1.2,
+      "turnover": 3.48,
+      "industry": "电力"
+    },
+    {
+      "code": "603305",
+      "name": "旭升集团",
+      "pct": 2.32,
+      "volRatio": 1.39,
+      "turnover": 3.3,
+      "industry": "汽车零部件"
+    },
+    {
+      "code": "300655",
+      "name": "晶瑞电材",
+      "pct": 2.31,
+      "volRatio": 1.69,
+      "turnover": 4.73,
+      "industry": "电子化学品Ⅱ"
     }
   ],
+  "formal": [],
+  "candidates": [],
   "shadow": [],
-  "all": [
-    {
-      "code": "000034",
-      "name": "神州数码",
-      "industry": "IT服务Ⅱ",
-      "quality": 65,
-      "overnight": 22,
-      "passed": false,
-      "shadow": false,
-      "dataStatus": "invalid"
-    }
-  ]
+  "all": []
 }
