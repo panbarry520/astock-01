@@ -1,115 +1,321 @@
 {
-  "generatedAt": "2026/11/24 00:46:06",
-  "signalTime": "2026-11-23T16:46:06.995Z",
+  "generatedAt": "2026/11/25 00:39:38",
+  "signalTime": "2026-11-24T16:39:38.859Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-23",
-  "marketScore": 84,
-  "marketState": "ok",
-  "marketLabel": "🟢 短线市场温度 84/100",
+  "date": "2026-11-24",
+  "marketScore": 54,
+  "marketState": "warn",
+  "marketLabel": "🟡 短线市场温度 54/100",
   "gate": {
-    "tier": "ok",
+    "tier": "warn",
     "allow": true,
-    "requireQ": 75,
-    "requireO": 75,
-    "label": "正常交易（温度≥70，Q≥75 且 O≥75）"
+    "requireQ": 80,
+    "requireO": 80,
+    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
   },
   "weekendHold": false,
   "funnel": {
-    "total": 5365,
-    "rejectST": 457,
-    "rejectLimit": 251,
-    "rejectPct": 2098,
-    "rejectVolRatio": 1119,
-    "rejectTurnover": 798,
-    "rejectMktcap": 482,
-    "passed": 160
+    "total": 5565,
+    "rejectST": 466,
+    "rejectLimit": 81,
+    "rejectPct": 4388,
+    "rejectVolRatio": 219,
+    "rejectTurnover": 200,
+    "rejectMktcap": 145,
+    "passed": 66
   },
   "benchmark": [
     {
-      "code": "688260",
-      "name": "昀冢科技",
-      "pct": 9.24,
-      "volRatio": 1.3,
-      "turnover": 6.65,
-      "industry": "消费电子"
+      "code": "000700",
+      "name": "模塑科技",
+      "pct": 9.08,
+      "volRatio": 1.69,
+      "turnover": 11.23,
+      "industry": "汽车零部件"
     },
     {
-      "code": "300486",
-      "name": "东杰智能",
-      "pct": 9.19,
-      "volRatio": 2.13,
-      "turnover": 3.25,
-      "industry": "自动化设备"
-    },
-    {
-      "code": "301293",
-      "name": "三博脑科",
-      "pct": 9.12,
-      "volRatio": 1.85,
-      "turnover": 4.95,
-      "industry": "医疗服务"
-    },
-    {
-      "code": "688662",
-      "name": "富信科技",
-      "pct": 9.11,
-      "volRatio": 1.39,
-      "turnover": 8.94,
-      "industry": "其他电子Ⅱ"
-    },
-    {
-      "code": "688400",
-      "name": "凌云光",
-      "pct": 9.01,
-      "volRatio": 1.28,
-      "turnover": 3.36,
+      "code": "300307",
+      "name": "慈星股份",
+      "pct": 8.95,
+      "volRatio": 1.45,
+      "turnover": 11.26,
       "industry": "专用设备"
     },
     {
-      "code": "000837",
-      "name": "秦川机床",
-      "pct": 9,
-      "volRatio": 1.96,
-      "turnover": 3.19,
-      "industry": "通用设备"
+      "code": "300618",
+      "name": "寒锐钴业",
+      "pct": 8.77,
+      "volRatio": 4,
+      "turnover": 7.24,
+      "industry": "能源金属"
     },
     {
-      "code": "300788",
-      "name": "中信出版",
-      "pct": 8.98,
-      "volRatio": 1.53,
-      "turnover": 7.54,
-      "industry": "出版"
+      "code": "000026",
+      "name": "飞亚达",
+      "pct": 8.76,
+      "volRatio": 1.21,
+      "turnover": 9.23,
+      "industry": "饰品"
     },
     {
-      "code": "600592",
-      "name": "龙溪股份",
-      "pct": 8.97,
-      "volRatio": 1.76,
-      "turnover": 6.34,
-      "industry": "通用设备"
+      "code": "301000",
+      "name": "肇民科技",
+      "pct": 8.53,
+      "volRatio": 1.75,
+      "turnover": 10.96,
+      "industry": "汽车零部件"
     },
     {
-      "code": "688661",
-      "name": "和林微纳",
-      "pct": 8.95,
-      "volRatio": 1.28,
-      "turnover": 5.86,
-      "industry": "半导体"
+      "code": "603286",
+      "name": "日盈电子",
+      "pct": 8.28,
+      "volRatio": 1.38,
+      "turnover": 7.71,
+      "industry": "汽车零部件"
     },
     {
-      "code": "300440",
-      "name": "运达科技",
-      "pct": 8.94,
-      "volRatio": 1.46,
-      "turnover": 3,
-      "industry": "IT服务Ⅱ"
+      "code": "688678",
+      "name": "福立旺",
+      "pct": 8.08,
+      "volRatio": 1.79,
+      "turnover": 10.43,
+      "industry": "消费电子"
+    },
+    {
+      "code": "300835",
+      "name": "龙磁科技",
+      "pct": 7.96,
+      "volRatio": 1.62,
+      "turnover": 5.78,
+      "industry": "金属新材料"
+    },
+    {
+      "code": "603341",
+      "name": "龙旗科技",
+      "pct": 7.91,
+      "volRatio": 2.03,
+      "turnover": 9.44,
+      "industry": "消费电子"
+    },
+    {
+      "code": "603166",
+      "name": "福达股份",
+      "pct": 7.74,
+      "volRatio": 1.7,
+      "turnover": 5.84,
+      "industry": "汽车零部件"
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "603166",
+      "name": "福达股份",
+      "price": 10.58,
+      "pct": 7.74,
+      "industry": "汽车零部件",
+      "volMulti": 211.19,
+      "turnover": 5.84,
+      "delta": 0.61,
+      "dayHighTime": "09:47",
+      "tailNewHigh": false,
+      "closePos": 76,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 63,
+      "overnightScore": 60,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "002749",
+      "name": "国光股份",
+      "price": 9.94,
+      "pct": 7.46,
+      "industry": "农化制品",
+      "volMulti": 674.54,
+      "turnover": 7.68,
+      "delta": 0.22,
+      "dayHighTime": "14:11",
+      "tailNewHigh": false,
+      "closePos": 82,
+      "crowding": "中拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 63,
+      "overnightScore": 48,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "300969",
+      "name": "恒帅股份",
+      "price": 90,
+      "pct": 4.06,
+      "industry": "汽车零部件",
+      "volMulti": 100.58,
+      "turnover": 6.46,
+      "delta": -0.15,
+      "dayHighTime": "10:45",
+      "tailNewHigh": false,
+      "closePos": 42,
+      "crowding": "中拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 62,
+      "overnightScore": 30,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "603175",
+      "name": "超颖电子",
+      "price": 95.45,
+      "pct": 6.86,
+      "industry": "元件",
+      "volMulti": 210.74,
+      "turnover": 7.82,
+      "delta": -0.21,
+      "dayHighTime": "09:36",
+      "tailNewHigh": false,
+      "closePos": 48,
+      "crowding": "中拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 40,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "003021",
+      "name": "兆威机电",
+      "price": 88.48,
+      "pct": 4.7,
+      "industry": "电机Ⅱ",
+      "volMulti": 110.85,
+      "turnover": 6.44,
+      "delta": 0.14,
+      "dayHighTime": "09:49",
+      "tailNewHigh": false,
+      "closePos": 12,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 50,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    },
+    {
+      "code": "688090",
+      "name": "瑞松科技",
+      "price": 52.85,
+      "pct": 2.72,
+      "industry": "自动化设备",
+      "volMulti": 129.57,
+      "turnover": 7.4,
+      "delta": 0.1,
+      "dayHighTime": "09:51",
+      "tailNewHigh": false,
+      "closePos": 6,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 61,
+      "overnightScore": 50,
+      "marketScore": 54,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "观望",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "603166",
+      "name": "福达股份",
+      "industry": "汽车零部件",
+      "quality": 63,
+      "overnight": 60,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "002749",
+      "name": "国光股份",
+      "industry": "农化制品",
+      "quality": 63,
+      "overnight": 48,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "300969",
+      "name": "恒帅股份",
+      "industry": "汽车零部件",
+      "quality": 62,
+      "overnight": 30,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "603175",
+      "name": "超颖电子",
+      "industry": "元件",
+      "quality": 61,
+      "overnight": 40,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "003021",
+      "name": "兆威机电",
+      "industry": "电机Ⅱ",
+      "quality": 61,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    },
+    {
+      "code": "688090",
+      "name": "瑞松科技",
+      "industry": "自动化设备",
+      "quality": 61,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
