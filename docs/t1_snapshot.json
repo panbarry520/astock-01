@@ -1,115 +1,151 @@
 {
-  "generatedAt": "2026/11/26 00:22:49",
-  "signalTime": "2026-11-25T16:22:49.035Z",
+  "generatedAt": "2026/11/26 23:56:59",
+  "signalTime": "2026-11-26T15:56:59.660Z",
   "sampleTier": "late",
   "lateSnapshot": true,
   "dataValid": false,
-  "date": "2026-11-25",
-  "marketScore": 54,
-  "marketState": "warn",
-  "marketLabel": "🟡 短线市场温度 54/100",
+  "date": "2026-11-26",
+  "marketScore": 36,
+  "marketState": "no",
+  "marketLabel": "🔴 短线市场温度 36/100",
   "gate": {
-    "tier": "warn",
-    "allow": true,
-    "requireQ": 80,
-    "requireO": 80,
-    "label": "精选交易（温度50-69，Q≥80 且 O≥80）"
+    "tier": "no",
+    "allow": false,
+    "requireQ": null,
+    "requireO": null,
+    "label": "禁止隔夜交易（温度<50）"
   },
   "weekendHold": false,
   "funnel": {
     "total": 5565,
-    "rejectST": 466,
-    "rejectLimit": 55,
-    "rejectPct": 4866,
-    "rejectVolRatio": 14,
-    "rejectTurnover": 121,
-    "rejectMktcap": 29,
-    "passed": 14
+    "rejectST": 467,
+    "rejectLimit": 83,
+    "rejectPct": 4468,
+    "rejectVolRatio": 287,
+    "rejectTurnover": 164,
+    "rejectMktcap": 59,
+    "passed": 37
   },
   "benchmark": [
     {
-      "code": "002190",
-      "name": "成飞集成",
-      "pct": 8.84,
-      "volRatio": 5.29,
-      "turnover": 6.6,
-      "industry": "汽车零部件"
+      "code": "301251",
+      "name": "威尔高",
+      "pct": 8.68,
+      "volRatio": 1.4,
+      "turnover": 8,
+      "industry": "元件"
     },
     {
-      "code": "002737",
-      "name": "葵花药业",
-      "pct": 8.11,
-      "volRatio": 3.43,
-      "turnover": 3.63,
-      "industry": "中药Ⅱ"
+      "code": "000506",
+      "name": "招金黄金",
+      "pct": 8.41,
+      "volRatio": 1.97,
+      "turnover": 9.41,
+      "industry": "贵金属"
     },
     {
-      "code": "300723",
-      "name": "一品红",
-      "pct": 7.3,
-      "volRatio": 3.11,
-      "turnover": 3.41,
-      "industry": "化学制药"
+      "code": "600397",
+      "name": "江钨装备",
+      "pct": 7.77,
+      "volRatio": 2.07,
+      "turnover": 5.71,
+      "industry": "专用设备"
     },
     {
-      "code": "002607",
-      "name": "中公教育",
-      "pct": 6.99,
-      "volRatio": 3.16,
-      "turnover": 7.72,
-      "industry": "教育"
+      "code": "002721",
+      "name": "金一文化",
+      "pct": 7.76,
+      "volRatio": 4.35,
+      "turnover": 5.51,
+      "industry": "饰品"
     },
     {
-      "code": "300997",
-      "name": "欢乐家",
-      "pct": 5.98,
-      "volRatio": 2.95,
-      "turnover": 5.72,
-      "industry": "饮料乳品"
+      "code": "603666",
+      "name": "亿嘉和",
+      "pct": 7.51,
+      "volRatio": 1.48,
+      "turnover": 8.11,
+      "industry": "自动化设备"
     },
     {
-      "code": "002727",
-      "name": "一心堂",
-      "pct": 5.92,
-      "volRatio": 3.77,
-      "turnover": 9.17,
-      "industry": "医药商业"
+      "code": "688535",
+      "name": "华海诚科",
+      "pct": 7.03,
+      "volRatio": 1.57,
+      "turnover": 6.95,
+      "industry": "半导体"
     },
     {
-      "code": "600691",
-      "name": "潞化科技",
-      "pct": 5.71,
-      "volRatio": 4.75,
-      "turnover": 4.12,
+      "code": "301265",
+      "name": "华新科技",
+      "pct": 6.79,
+      "volRatio": 1.29,
+      "turnover": 6,
+      "industry": "环境治理"
+    },
+    {
+      "code": "603360",
+      "name": "百傲化学",
+      "pct": 6.53,
+      "volRatio": 3.1,
+      "turnover": 9.12,
       "industry": "农化制品"
     },
     {
-      "code": "605018",
-      "name": "长华集团",
-      "pct": 4.91,
-      "volRatio": 6.07,
-      "turnover": 11.18,
-      "industry": "汽车零部件"
+      "code": "688059",
+      "name": "华锐精密",
+      "pct": 6.14,
+      "volRatio": 1.31,
+      "turnover": 4.84,
+      "industry": "通用设备"
     },
     {
-      "code": "601515",
-      "name": "衢州东峰",
-      "pct": 4.26,
-      "volRatio": 3.41,
-      "turnover": 3.24,
-      "industry": "包装印刷"
-    },
-    {
-      "code": "300197",
-      "name": "节能铁汉",
-      "pct": 3.68,
-      "volRatio": 1.55,
-      "turnover": 5.1,
-      "industry": "基础建设"
+      "code": "603175",
+      "name": "超颖电子",
+      "pct": 6.09,
+      "volRatio": 2.09,
+      "turnover": 10.38,
+      "industry": "元件"
     }
   ],
   "formal": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "code": "002716",
+      "name": "湖南白银",
+      "price": 6.56,
+      "pct": 5.47,
+      "industry": "贵金属",
+      "volMulti": 137.96,
+      "turnover": 6.7,
+      "delta": 0.8,
+      "dayHighTime": "10:44",
+      "tailNewHigh": false,
+      "closePos": 63,
+      "crowding": "低拥挤",
+      "fundTypes": [
+        "中性"
+      ],
+      "qualityScore": 64,
+      "overnightScore": 50,
+      "marketScore": 36,
+      "dataStatus": "invalid",
+      "passed": false,
+      "recommendation": "禁止",
+      "shadow": false
+    }
+  ],
   "shadow": [],
-  "all": []
+  "all": [
+    {
+      "code": "002716",
+      "name": "湖南白银",
+      "industry": "贵金属",
+      "quality": 64,
+      "overnight": 50,
+      "passed": false,
+      "shadow": false,
+      "dataStatus": "invalid"
+    }
+  ]
 }
